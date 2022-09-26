@@ -1,0 +1,20 @@
+    1  cd ..
+    2  cp -r Basics/ /mnt/d
+    3  cd Basics/
+    4  vi condjumptest1.s 
+    5  cp condjumptest1.s proccalltest1.s
+    6  vi proccalltest1.s 
+    7  as proccalltest1.s 
+    8  ld a.out system.o -o run
+    9  ./run
+   10  vi proccalltest1.s 
+   11  as proccalltest1.s 
+   12  ld a.out system.o -o run
+   13  ./run
+   14  vi proccalltest1.s 
+   15  vi gcd.s
+   16  as gcd.s -o gcd.o
+   17  objdump -t a.out
+   18  objdump -t gcd.o
+   19  vi gcd.s
+   20  history >cmd26-09-evening.txt 
