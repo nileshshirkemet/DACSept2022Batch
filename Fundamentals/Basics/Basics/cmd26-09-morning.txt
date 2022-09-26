@@ -1,0 +1,21 @@
+  204  cd Foundations/Basics/
+  205  cp memaddrtest1.s condjumptest1.s
+  206  vi condjumptest1.s 
+  207  as condjumptest1.s 
+  208  ld a.out system.o -o run
+  209  ./run 
+  210  vi condjumptest1.s 
+  211  ./run 
+  212  vi condjumptest1.s 
+  213  as condjumptest1.s 
+  214  ld a.out system.o -o run
+  215  ./run 
+  216  vi condjumptest1.s 
+  217  cp hello.s condjumptest2.s 
+  218  vi condjumptest2.s 
+  219  as condjumptest2.s 
+  220  ld a.out system.o -o run
+  221  ./run 
+  222  vi condjumptest2.s 
+  223  ls
+  224  history >cmd26-09-morning.txt

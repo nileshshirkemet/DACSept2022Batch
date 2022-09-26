@@ -1,0 +1,22 @@
+    1  cd Foundations/Basics/
+    2  ls
+    3  cp hello.s memaddrtest1.s
+    4  vi memaddrtest1.s 
+    5  as memaddrtest1.s 
+    6  ld a.out system.o -o run
+    7  ./run 
+    8  vi memaddrtest1.s 
+    9  as memaddrtest1.s 
+   10  ld a.out system.o -o run
+   11  ./run 
+   12  as memaddrtest1.s 
+   13  vi memaddrtest1.s 
+   14  as memaddrtest1.s 
+   15  ld a.out system.o -o run
+   16  ./run 
+   17  vi memaddrtest1.s 
+   18  as memaddrtest1.s 
+   19  ld a.out system.o -o run
+   20  ./run 
+   21  vi memaddrtest1.s 
+   22  history >cmd24-09-morning.txt 
