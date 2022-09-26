@@ -1,0 +1,196 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo apt install gcc
+    4  sudo apt install g++
+    5  exit
+    6  ls
+    7  gcc
+    8  g++
+    9  java
+   10  java -version
+   11  exit
+   12  tar xvf /mnt/d/Softwares/jdk-16.0.1.tar.gz 
+   13  vi .bashrc
+   14  exit
+   15  java -version
+   16  tar xvf /mnt/d/Softwares/glassfish-6.2.25.tar.gz 
+   17  java -version
+   18  tar xvf /mnt/d/Softwares/jdk-16.0.1.tar.gz 
+   19  vi .bashrc 
+   20  edit
+   21  export PATH=
+   22  export PATH=$PATH:~/:/bin:/usr/bin
+   23  vi
+   24  vi .bashrc
+   25  exit
+   26  vi test.c
+   27  ls
+   28  java -version 
+   29  tar
+   30  tar xvf /mnt/d/Softwares/glassfish-6.2.25.tar.gz 
+   31  ~/glassfish6/glassfish/bin/asadmin start-domain
+   32  gcc
+   33  g++
+   34  exit
+   35  cd Foundations/Basics/
+   36  wget iitdac.met.edu/shared/asm-x64.tar.gz
+   37  tar xf asm-x64.tar.gz 
+   38  vi hello.s
+   39  vi ~/.vimrc 
+   40  vi hello.s
+   41  as hello.s -o hello.o
+   42  ls hello.*
+   43  vi hello.o
+   44  ld hello.o system.o -o hello
+   45  ls hello.*
+   46  ls hello*
+   47  ./hello 
+   48  vi hello.s
+   49  ld hello.o -o hello
+   50  ./hello.o
+   51  ll hello*
+   52  ls -l hello*
+   53  ld hello.o system.o -o hello
+   54  ll hello*
+   55  vi hello
+   56  pwd
+   57  history >cmd23-09-morning.txt
+   58  vi cmd23-09-morning.txt 
+   59  cd ..
+   60  cd ~/
+   61  pwd
+   62  ls
+   63  cp -r Foundations/ /mnt/d
+   64  explore
+   65  ixplore
+   66  clear
+   67  ls
+   68  pwd
+   69  ls
+   70  mkdir ClassCodes
+   71  ls
+   72  cd ClassCodes/
+   73  pwd
+   74  cp -r /mnt/d/Foundations/ .
+   75  ls
+   76  ls 
+   77  cd Foundations/
+   78  cd Basics/\
+   79  cd Basics/
+   80  ls
+   81  clear
+   82  cd  ~
+   83  pwd
+   84  ls
+   85  mkdir practice
+   86  cd practice
+   87  mkdir Foundation_practice
+   88  cd Foundation_practice/
+   89  pwd
+   90  ls ~/ClassCodes/Foundations/Basics/
+   91  cp ~/ClassCodes/Foundations/Basics/cmd23-09-morning.txt .
+   92  cp ~/ClassCodes/Foundations/Basics/common.i .
+   93  cp ~/ClassCodes/Foundations/Basics/system.o .
+   94  cp ~/ClassCodes/Foundations/Basics/hello.s .
+   95  ls
+   96  vi hello.s
+   97  vi cmd23-09-morning.txt 
+   98  as hello.s -o hello.o
+   99  ld hello.o system.o -o run
+  100  ls
+  101  ./run
+  102  cd ~
+  103  clear
+  104  pwd
+  105  ls
+  106  cd ClassCodes/
+  107  ls
+  108  cd ..
+  109  ls
+  110  ls parctice
+  111  ls practice
+  112  ls practice/Foundation_practice/
+  113  cd practice/Foundation_practice/
+  114  ls
+  115  vi test.c
+  116  ls
+  117  cp test.c /mnt/d
+  118  ls
+  119  cd ..\
+  120  ls
+  121  cp -r Foundation_practice/ /mnt/d
+  122  cp -r Foundation_practice /mnt/d
+  123  ls
+  124  cd ~
+  125  ls
+  126  rm -r ClassCodes/
+  127  rm -r practice
+  128  clear
+  129  ls
+  130  ls Foundations/
+  131  ls
+  132  pwd
+  133  mkdir Class_Codes
+  134  cd Class_Codes/
+  135  cp -r /mnt/d/Foundations/ .
+  136  ls
+  137  cd ~
+  138  pwd
+  139  ls
+  140  mkdir practice
+  141  cd practice/
+  142  mkdir foundation_practice
+  143  cd foundation_practice/
+  144  ls ~
+  145  ls ~/Class_Codes/Foundations/Basics/
+  146  cp ~/Class_Codes/Foundations/Basics/cmd23-09-morning.txt  .
+  147  cp ~/Class_Codes/Foundations/Basics/common.i  .
+  148  cp ~/Class_Codes/Foundations/Basics/system.o  .
+  149  cp ~/Class_Codes/Foundations/Basics/hello.s  .
+  150  ls
+  151  vi hello.s
+  152  vi cmd23-09-morning.txt 
+  153  as hello.s -o hello.o
+  154  ld hello.o system.o -o run
+  155  ./run
+  156  vi test.c
+  157  clear
+  158  ls
+  159  cp test.c /mnt/d
+  160  cd ..
+  161  cp -r foundation_practice/ /mnt/d
+  162  exit
+  163  ls
+  164  rm Class_Codes/
+  165  rm -r Class_Codes/
+  166  rm -r practice/
+  167  ls
+  168  clear
+  169  cd Foundations/Basics/
+  170  ls
+  171  ./hello
+  172  vi hello.s
+  173  vi common.i
+  174  vi hello.s
+  175  as hello.s -o hello.o
+  176  vi hello.s
+  177  as hello.s -o hello.o
+  178  ld  hello.o system.o -o hello
+  179  vi hello.s
+  180  as hello.s -o hello.o
+  181  ld  hello.o system.o -o hello
+  182  ./hello 
+  183  vi hello.s
+  184  ./hello 
+  185  as hello.s -o hello.o
+  186  ld  hello.o system.o -o hello
+  187  ./hello 
+  188  vi hello.s
+  189  exit
+  190  ls
+  191  cd Foundations/
+  192  ls
+  193  cd Basic
+  194  cd Basics
+  195  ls
+  196  history >cmd24-09-afternoon.txt 

@@ -1,0 +1,23 @@
+    1  cd Foundations/Basics/
+    2  wget iitdac.met.edu/shared/asm-x64.tar.gz
+    3  tar xf asm-x64.tar.gz 
+    4  vi hello.s
+    5  vi ~/.vimrc 
+    6  vi hello.s
+    7  as hello.s -o hello.o
+    8  ls hello.*
+    9  vi hello.o
+   10  ld hello.o system.o -o hello
+   11  ls hello.*
+   12  ls hello*
+   13  ./hello 
+   14  vi hello.s
+   15  ld hello.o -o hello
+   16  ./hello.o
+   17  ll hello*
+   18  ls -l hello*
+   19  ld hello.o system.o -o hello
+   20  ll hello*
+   21  vi hello
+   22  pwd
+   23  history >cmd23-09-morning.txt
