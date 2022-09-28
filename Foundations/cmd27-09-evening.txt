@@ -1,0 +1,22 @@
+  226  exity
+  227  exit
+  228  ls
+  229  clear
+  230  cd Foundations/
+  231  mkdir Language
+  232  cd Language/
+  233  mkdir Elements
+  234  cd Elements/
+  235  vi ~/.bashrc
+  236  exec bash
+  237  vi variabletest.c
+  238  cc variabletest.c -o run
+  239  ./run 
+  240  vi variabletest.c
+  241  cc variabletest.c -o run
+  242  vi variabletest.c
+  243  ls
+  244  cd ..
+  245  ls
+  246  cp -r Language /mnt/d/
+  247  history > cmd27-09-morning.txt

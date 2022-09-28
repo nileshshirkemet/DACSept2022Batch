@@ -1,0 +1,34 @@
+    1  cd Foundations/Basics/
+    2  vi gcd.s 
+    3  as gcd.s -o gcd.o
+    4  objdump -t gcd.o
+    5  cp hello.s proccalltest2.s 
+    6  vi proccalltest2.s 
+    7  as proccalltest2.s 
+    8  ld a.out system.o -o run
+    9  ld a.out gcd.o system.o -o run
+   10  ./run 
+   11  vi proccalltest2.s 
+   12  uname -m
+   13  ssh unipro@192.168.1.112
+   14  ssh unipro@192.168.4.112
+   15  vi hllangtest1.c
+   16  ll
+   17  ll *.s
+   18  cc -S hllangtest1.c 
+   19  ll *.s
+   20  as hllangtest1.s
+   21  ld a.out system.o -o run
+   22  ./run 
+   23  vi hllangtest1.c
+   24  vi hllangtest2.py
+   25  python3 hllangtest2.py 
+   26  ssh unipro@192.168.4.112
+   27  vi hllangtest1.c
+   28  cc -S hllangtest1.c 
+   29  as hllangtest1.s
+   30  ld a.out system.o -o run
+   31  ./run 
+   32  vi hllangtest2.py 
+   33  python3 hllangtest2.py 
+   34  history >cmd27-09-morning.txt 
