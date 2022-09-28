@@ -1,0 +1,25 @@
+    1  ls
+    2  cd Foundations/Language/Elements/
+    3  vi arraytest.c
+    4  vi ~/.vimrc 
+    5  vi arraytest.c
+    6  cc arraytest.c -o run
+    7  vi arraytest.c
+    8  cc arraytest.c -o run
+    9  vi arraytest.c
+   10  cc arraytest.c -o run
+   11  ./run 
+   12  vi arraytest.c
+   13  cp variabletest.c ifelsetest.c
+   14  vi ifelsetest.c 
+   15  cc ifelsetest.c -o run
+   16  ./run 
+   17  vi ifelsetest.c 
+   18  cc ifelsetest.c -o run
+   19  ./run 
+   20  vi ifelsetest.c 
+   21  vi switchcasetest.c
+   22  cc switchcasetest.c -o run
+   23  ./run 
+   24  vi switchcasetest.c
+   25  history >cmd28-09-morning

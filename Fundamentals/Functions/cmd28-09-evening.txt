@@ -1,0 +1,38 @@
+    1  ls
+    2  vi dowhiletest.c
+    3  cc dowhiletest.c -o run
+    4  ./run 
+    5  vi dowhiletest.c
+    6  cc dowhiletest.c -o run
+    7  ./run 
+    8  vi dowhiletest.c
+    9  vi whiletest.c
+   10  cc whiletest.c -o run
+   11  ./run 
+   12  vi whiletest.c
+   13  cc whiletest.c -o run
+   14  ./run 
+   15  vi whiletest.c
+   16  vi fortest.c
+   17  cc fortest.c -o run
+   18  ./run 
+   19  vi fortest.c
+   20  cd ..
+   21  mkdir Functions
+   22  cd Functions/
+   23  cp ../Elements/ifelsetest.c functest.c
+   24  vi functest.c 
+   25  cc functest.c -o run
+   26  ./run 
+   27  vi functest.c 
+   28  cc functest.c -o run
+   29  ./run 
+   30  vi functest.c 
+   31  cc functest.c -o run
+   32  ./run 
+   33  vi functest.c 
+   34  cc functest.c -o run
+   35  ./run 
+   36  echo $?
+   37  vi functest.c 
+   38  history >cmd28-09-evening.txt
