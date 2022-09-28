@@ -1,1 +1,0 @@
-These folder contains all codes related to basics, C IA32 and OOP
