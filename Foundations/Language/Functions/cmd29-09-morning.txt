@@ -1,0 +1,36 @@
+    1  clear
+    2  cd Foundations/Language/Functions/
+    3  cp ../../Basics/gcd.o .
+    4  ls
+    5  vi extfunctest1.c
+    6  cc extfunctest1.c -o run
+    7  cc extfunctest1.c gcd.o -o run
+    8  ./run
+    9  vi extfunctest1.c
+   10  ssh unipro@192.168.4.112
+   11  vi primes.c
+   12  cc -c primes.c 
+   13  objdump -t primes.o
+   14  vi primes.c
+   15  cc -c primes.c 
+   16  objdump -t primes.o
+   17  vi primes.c
+   18  vi extfunctest2.c 
+   19  cc extfunctest2.c primes.o -o run
+   20  ./run
+   21  vi primes.c
+   22  cc -c primes.c 
+   23  cc extfunctest2.c primes.o -o run
+   24  ./run 
+   25  ld -shared primes.o -o primes.so
+   26  ls
+   27  vi extfunctest3.py
+   28  python3 extfunctest3.py 
+   29  vi extfunctest3.py
+   30  vi primes.c
+   31  cc -c primes.c 
+   32  ld -shared primes.o -o primes.so
+   33  vi primes.c
+   34  cc -c primes.c 
+   35  ld -shared primes.o -o primes.so
+   36  history >cmd29-09-morning.txt

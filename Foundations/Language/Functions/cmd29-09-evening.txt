@@ -1,0 +1,32 @@
+    1  clear
+    2  vi valptrtest.c
+    3  cc valptrtest.c -o run
+    4  ./run 
+    5  vi valptrtest.c
+    6  cc valptrtest.c -o run
+    7  ./run 
+    8  vi valptrtest.c
+    9  cc valptrtest.c -o run
+   10  ./run 
+   11  vi valptrtest.c
+   12  vi funcptrtest.c
+   13  cc funcptrtest.c -o run
+   14  vi funcptrtest.c
+   15  cc funcptrtest.c -o run
+   16  ./run 
+   17  vi funcptrtest.c
+   18  cc funcptrtest.c -o run
+   19  ./run 
+   20  vi funcptrtest.c
+   21  cc funcptrtest.c -o run
+   22  vi funcptrtest.c
+   23  cc funcptrtest.c -o run
+   24  ./run 
+   25  vi funcptrtest.c
+   26  cc funcptrtest.c -o run
+   27  vi funcptrtest.c
+   28  cc funcptrtest.c -o run
+   29  vi funcptrtest.c
+   30  cc funcptrtest.c -o run
+   31  vi funcptrtest.c
+   32  history >cmd29-09-evening.txt 
