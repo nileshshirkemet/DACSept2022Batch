@@ -1,0 +1,41 @@
+    1  clear
+    2  cd Foundations/Language/Functions/
+    3  vi banner1.h
+    4  vi banner1.c 
+    5  cc -c banner1.c
+    6  vi banner1.c 
+    7  cc -c banner1.c
+    8  vi banner1.c 
+    9  cc -c banner1.c
+   10  vi banner1.c 
+   11  cd ../Elements/
+   12  cd ../Functions/
+   13  ls
+   14  vi functest.c 
+   15  cc functest.c -o run
+   16  ./run
+   17  vi udttest1.c
+   18  ls /usr/include/
+   19  vi udttest1.c
+   20  cc udttest1.c banner1.o -o run
+   21  ./run 
+   22  vi udttest1.c
+   23  cc udttest1.c banner1.o -o run
+   24  ./run 
+   25  cp banner1.h banner2.h
+   26  cp banner1.c banner2.c
+   27  vi banner2.h
+   28  vi banner2.c
+   29  cp udttest1.c udttest2.c 
+   30  vi udttest2.c 
+   31  cc udttest2.c banner2.o -o run
+   32  cc -c banner2.c
+   33  vi banner2.c
+   34  cc -c banner2.c
+   35  cc udttest2.c banner2.o -o run
+   36  ./run 
+   37  cc -c banner2.c
+   38  vi udttest2.c 
+   39  cc udttest2.c banner2.o -o run
+   40  ./run 
+   41  history >cmd30-09-morning.txt 
