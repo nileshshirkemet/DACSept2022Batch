@@ -1,0 +1,64 @@
+    1  clear
+    2  ls
+    3  cd ~/Foundations/
+    4  mkdir Methodologies
+    5  cd Methodologies/
+    6  mkdir Abstraction
+    7  cd Abstraction/
+    8  vi funcovldtest.cpp
+    9  c++ funcovldtest.cpp -o run
+   10  vi funcovldtest.cpp
+   11  objdump -t run
+   12  vi funcovldtest.cpp
+   13  c++filt _Z4LoadiPs
+   14  vi funcovldtest.cpp
+   15  c++ funcovldtest.cpp -o run
+   16  vi funcovldtest.cpp
+   17  c++ funcovldtest.cpp -o run
+   18  vi funcovldtest.cpp
+   19  c++ funcovldtest.cpp -o run
+   20  ./run 
+   21  vi funcovldtest.cpp
+   22  cp ../../Language/Functions/primes.o .
+   23  vi extcfunctest.cpp
+   24  c++ extcfunctest.cpp -o run
+   25  c++ extcfunctest.cpp primes.o -o run
+   26  vi extcfunctest.cpp
+   27  objdimp -t primes.o 
+   28  objdump -t primes.o 
+   29  vi extcfunctest.cpp
+   30  c++ extcfunctest.cpp primes.o -o run
+   31  ./run 
+   32  vi funcovldtest.cpp
+   33  vi exceptiontest.cpp
+   34  c++ exceptiontest.cpp -o run
+   35  ./run 
+   36  vi exceptiontest.cpp
+   37  c++ exceptiontest.cpp -o run
+   38  ./run 
+   39  vi exceptiontest.cpp
+   40  c++ exceptiontest.cpp -o run
+   41  ./run 
+   42  vi exceptiontest.cpp
+   43  ./run 
+   44  c++ exceptiontest.cpp -o run
+   45  vi exceptiontest.cpp
+   46  c++ exceptiontest.cpp -o run
+   47  ./run 
+   48  vi exceptiontest.cpp
+   49  c++ exceptiontest.cpp -o run
+   50  ./run 
+   51  vi exceptiontest.cpp
+   52  c++ exceptiontest.cpp -o run
+   53  ./run 
+   54  vi exceptiontest.cpp
+   55  c++ exceptiontest.cpp -o run
+   56  ./run 
+   57  vi exceptiontest.cpp
+   58  c++ exceptiontest.cpp -o run
+   59  ./run 
+   60  vi exceptiontest.cpp
+   61  c++ exceptiontest.cpp -o run
+   62  ./run 
+   63  vi exceptiontest.cpp
+   64  history >cmd30-09-evening.txt 

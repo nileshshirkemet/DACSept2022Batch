@@ -1,0 +1,15 @@
+    1  cd ~/Foundations/Methodologies/Abstraction/
+    2  vi banner1.h
+    3  vi classtest1.cpp
+    4  c++ classtest1.cpp -o run
+    5  vi classtest1.cpp
+    6  c++ classtest1.cpp -o run
+    7  ./run 
+    8  vi classtest1.cpp
+    9  vi banner1.h
+   10  vi classtest1.cpp
+   11  c++ classtest1.cpp -o run
+   12  vi banner1.h
+   13  c++ classtest1.cpp -o run
+   14  vi banner1.h
+   15  history >cmd01-10-morning.txt 

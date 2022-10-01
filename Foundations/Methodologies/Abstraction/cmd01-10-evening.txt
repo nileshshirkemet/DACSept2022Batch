@@ -1,0 +1,65 @@
+    1  clear
+    2  ls
+    3  cd ~/Foundations/Methodologies/Abstraction/
+    4  cp banner1.h banner2.h 
+    5  vi banner2.h 
+    6  cp classtest1.cpp classtest2.cpp 
+    7  vi classtest2.cpp 
+    8  c++ classtest2.cpp -o run
+    9  vi classtest2.cpp 
+   10  vi banner2.h 
+   11  c++ classtest2.cpp -o run
+   12  vi banner2.h 
+   13  c++ classtest2.cpp -o run
+   14  ./run 
+   15  vi banner2.h 
+   16  c++ classtest2.cpp -o run
+   17  ./run 
+   18  vi banner2.h 
+   19  vi classtest2.cpp 
+   20  c++ classtest2.cpp -o run
+   21  ./run 
+   22  vi classtest2.cpp 
+   23  c++ classtest2.cpp -o run
+   24  ./run 
+   25  vi banner2.h 
+   26  vi classtest2.cpp 
+   27  cp banner2.h banner3.h
+   28  vi banner3.h
+   29  cp classtest2.cpp classtest3.cpp
+   30  rm classtest3.cpp 
+   31  cp classtest2.cpp reftypetest.cpp
+   32  vi reftypetest.cpp
+   33  c++ reftypetest.cpp -o run
+   34  vi banner3.h
+   35  vi exceptiontest.cpp 
+   36  vi reftypetest.cpp
+   37  vi banner3.h
+   38  vi reftypetest.cpp 
+   39  c++ reftypetest.cpp -o run
+   40  ./run 
+   41  vi reftypetest.cpp 
+   42  c++ reftypetest.cpp -o run
+   43  ./run 
+   44  vi reftypetest.cpp 
+   45  c++ reftypetest.cpp -o run
+   46  vi reftypetest.cpp 
+   47  c++ reftypetest.cpp -o run
+   48  ./run 
+   49  vi reftypetest.cpp 
+   50  c++ reftypetest.cpp -o run
+   51  ./run 
+   52  vi reftypetest.cpp 
+   53  c++ reftypetest.cpp -o run
+   54  ./run 
+   55  vi reftypetest.cpp 
+   56  c++ reftypetest.cpp -o run
+   57  ./run 
+   58  vi reftypetest.cpp 
+   59  c++ reftypetest.cpp -o run
+   60  ./run 
+   61  vi reftypetest.cpp 
+   62  c++ reftypetest.cpp -o run
+   63  vi reftypetest.cpp 
+   64  ls
+   65  history >cmd01-10-evening.txt 
