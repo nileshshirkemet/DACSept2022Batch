@@ -39,5 +39,10 @@ namespace Series
 		current = 1;
 		factor = ratio;
 	}
+
+	void PowerSequence::Reset()
+	{
+		current = 1;
+	}
 }
 

@@ -19,6 +19,12 @@ namespace Series
 		double Sum(int);
 	};
 
+	class Resetable
+	{
+	public:
+		virtual void Reset() = 0;
+	};
+
 	class LinearSequence : public Sequence
 	{
 	public:
@@ -32,13 +38,17 @@ namespace Series
 		float step;
 	};
 
-	class PowerSequence : public Sequence
+	//Multiple inheritance (MI) allows a class to be derived
+	//directly from two or more base classes
+	class PowerSequence : public Sequence, public Resetable
 	{
 	public:
 		
 		PowerSequence(float);
 
 		double Next();
+
+		void Reset();
 
 	private:
 		double current;

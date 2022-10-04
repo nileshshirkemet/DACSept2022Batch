@@ -1,0 +1,48 @@
+    1  clear
+    2  cd ~
+    3  pwd
+    4  clear
+    5  cd Foundations/
+    6  la
+    7  cd M
+    8  cd Methodologies/
+    9  ls
+   10  cd Abstraction/
+   11  ls
+   12  cd ..
+   13  cd Polymorphism/
+   14  ls
+   15  clear
+   16  ls
+   17  cd ~/Foundations/Methodologies/Polymorphism/
+   18  vi adttest.cpp
+   19  c++ adttest.cpp series.o -o run
+   20  vi adttest.cpp
+   21  c++ adttest.cpp series.o -o run
+   22  vi adttest.cpp
+   23  c++ adttest.cpp series.o -o run
+   24  vi adttest.cpp
+   25  c++ adttest.cpp series.o -o run
+   26  ./run 
+   27  vi adttest.cpp
+   28  vi series.h
+   29  vi series.cpp
+   30  vi adttest.cpp
+   31  c++ adttest.cpp series.o -o run
+   32  ./run 
+   33  vi series.h
+   34  vi series.cpp 
+   35  vi series.h
+   36  c++ -c series.cpp 
+   37  vi rttitest.cpp
+   38  c++ rttitest.cpp series.o -o run
+   39  vi rttitest.cpp
+   40  c++ rttitest.cpp series.o -o run
+   41  vi rttitest.cpp
+   42  c++ rttitest.cpp series.o -o run
+   43  ./run 
+   44  vi rttitest.cpp
+   45  c++ rttitest.cpp series.o -o run
+   46  ./run 
+   47  vi rttitest.cpp
+   48  history >cmd04-10-evening.txt 
