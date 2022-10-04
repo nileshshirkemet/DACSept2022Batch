@@ -1,0 +1,18 @@
+    1  clear
+    2  cd ~
+    3  ls
+    4  clear
+    5  ls
+    6  cd ~/Foundations/Methodologies/Polymorphism/
+    7  vi derivedclasstest.cpp 
+    8  rm *.swp
+    9  ll
+   10  rm .derivedclasstest.cpp.swp 
+   11  vi derivedclasstest.cpp 
+   12  vi banner.h 
+   13  vi series.h
+   14  vi series.cpp
+   15  c++ -c series.cpp 
+   16  vi series.cpp
+   17  ls
+   18  history >cmd04-10-morning.txt

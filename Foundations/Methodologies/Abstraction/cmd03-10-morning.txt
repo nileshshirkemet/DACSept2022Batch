@@ -1,0 +1,67 @@
+    1  ls
+    2  cd Foundations/
+    3  ls
+    4  cd Methodologies/
+    5  ls
+    6  cd Abstraction/
+    7  ls
+    8  ulimit -s
+    9  ulimit -s 10240
+   10  ulimit --help
+   11  vi newoptest.cpp
+   12  c++ newoptest.cpp -o run
+   13  ./run 
+   14  vi newoptest.cpp
+   15  c++ newoptest.cpp -o run
+   16  ./run 
+   17  vi newoptest.cpp
+   18  vi ../../Language/Functions/banner2.c
+   19  vi newoptest.cpp
+   20  c++ newoptest.cpp -o run
+   21  vi ../../Language/Functions/banner2.c
+   22  vi newoptest.cpp
+   23  vi ../../Language/Functions/banner2.c
+   24  c++ newoptest.cpp -o run
+   25  ./run 
+   26  vi newoptest.cpp
+   27  c++ newoptest.cpp -o run
+   28  ./run 
+   29  vi newoptest.cpp
+   30  c++ newoptest.cpp -o run
+   31  ./run 
+   32  vi newoptest.cpp
+   33  vi banner3.h 
+   34  c++ newoptest.cpp -o run
+   35  vi banner3.h 
+   36  c++ newoptest.cpp -o run
+   37  vi newoptest.cpp
+   38  vi interval.h
+   39  vi opovldtest.cpp
+   40  c++ opovldtest.cpp -o run
+   41  vi opovldtest.cpp
+   42  vi interval.h
+   43  c++ opovldtest.cpp -o run
+   44  ./run 
+   45  vi interval.h
+   46  vi opovldtest.cpp
+   47  vi interval.h
+   48  c++ opovldtest.cpp -o run
+   49  ./run 
+   50  vi interval.h
+   51  vi opovldtest.cpp
+   52  vi interval.h
+   53  cp objcopytest.cpp
+   54  cp opovldtest.cpp objcopytest.cpp
+   55  vi objcopytest.cpp 
+   56  c++ objcopytest.cpp -o run
+   57  ./run 
+   58  vi objcopytest.cpp 
+   59  vi interval.h
+   60  c++ objcopytest.cpp -o run
+   61  ./run 
+   62  vi interval.h
+   63  c++ objcopytest.cpp -o run
+   64  vi objcopytest.cpp 
+   65  c++ objcopytest.cpp -o run
+   66  ./run 
+   67  history >cmd03-10-morning.txt 

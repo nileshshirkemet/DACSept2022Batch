@@ -8,7 +8,7 @@ public:
 
 	//parameterized constructor which can be used as default constructor
 	//since its parameter is optional
-	Banner(Geometry g = Geometry::Rectangular)
+	Banner(Geometry g=Geometry::Rectangular)
 	{
 		width = 20;
 		height = 5;
