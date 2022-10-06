@@ -1,0 +1,47 @@
+    1  clear
+    2  ls
+    3  cd ~/home
+    4  cd ~/
+    5  ls
+    6  clear
+    7  cd Foundations/
+    8  Methodologies/
+    9  cd Methodologies/
+   10  ls
+   11  cd Polymorphism/
+   12  ls
+   13  clear
+   14  vi functmplttest.cpp
+   15  c++ functmplttest.cpp -o run
+   16  ./run 
+   17  vi functmplttest.cpp
+   18  c++ functmplttest.cpp -o run
+   19  ./run 
+   20  vi functmplttest.cpp
+   21  c++ functmplttest.cpp -o run
+   22  vi functmplttest.cpp
+   23  c++ functmplttest.cpp -o run
+   24  vi functmplttest.cpp
+   25  c++ functmplttest.cpp -o run
+   26  ./run 
+   27  vi functmplttest.cpp
+   28  c++ functmplttest.cpp -o run
+   29  ./run 
+   30  objdump -t run
+   31  vi functmplttest.cpp
+   32  c++ functmplttest.cpp -o run
+   33  objdump -t run
+   34  vi functmplttest.cpp
+   35  c++ functmplttest.cpp -o run
+   36  vi functmplttest.cpp
+   37  vi classtmplttest.cpp
+   38  vi functmplttest.cpp
+   39  vi classtmplttest.cpp
+   40  c++ classtmplttest.cpp -o run
+   41  ./run 
+   42  vi classtmplttest.cpp
+   43  vi ../Abstraction/banner1.h 
+   44  vi classtmplttest.cpp
+   45  c++ classtmplttest.cpp -o run
+   46  vi classtmplttest.cpp
+   49  history >cmd06-10-morning.txt 
