@@ -1,0 +1,55 @@
+    1  pwd
+    2  clear
+    3  pwd
+    4  vi generictest1.cpp
+    5  c++ generictest1.cpp -o run
+    6  vi generictest1.cpp
+    7  ./run 
+    8  vi generictest1.cpp
+    9  c++ generictest1.cpp -o run
+   10  ./run
+   11  vi generictest1.cpp
+   12  c++ generictest1.cpp -o run
+   13  ./run
+   14  vi generictest1.cpp
+   15  c++ generictest1.cpp -o run
+   16  vi generictest1.cpp
+   17  c++ generictest1.cpp -o run
+   18  ./run 
+   19  vi generictest1.cpp
+   20  cp generictest1.cpp generictest2.cpp 
+   21  vi generictest2.cpp 
+   22  c++ generictest2.cpp -o run
+   23  vi generictest2.cpp 
+   24  c++ generictest2.cpp -o run
+   25  ./run 
+   26  vi generictest2.cpp 
+   27  c++ generictest2.cpp -o run
+   28  ./run 
+   29  vi generictest2.cpp 
+   30  c++ generictest2.cpp -o run
+   31  ./run 
+   32  vi generictest2.cpp 
+   33  c++ generictest2.cpp -o run
+   34  vi generictest2.cpp 
+   35  c++ generictest2.cpp -o run
+   36  ./run 
+   37  vi generictest2.cpp 
+   38  c++ generictest2.cpp -o run
+   39  ./run 
+   40  vi generictest2.cpp 
+   41  c++ generictest2.cpp -o run
+   42  vi generictest2.cpp 
+   43  c++ generictest2.cpp -o run
+   44  ./run 
+   45  vi generictest2.cpp 
+   46  vi itertest.cpp
+   47  c++ itertest.cpp -o run
+   48  vi itertest.cpp
+   49  c++ itertest.cpp -o run
+   50  vi itertest.cpp
+   51  c++ itertest.cpp -o run
+   52  ./run 
+   53  LS
+   54  ls
+   55  history >cmd06-10-evening.txt 
