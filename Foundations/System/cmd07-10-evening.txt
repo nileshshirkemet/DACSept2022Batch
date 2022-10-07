@@ -1,0 +1,929 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo apt install gcc
+    4  sudo apt install g++
+    5  exit
+    6  ls
+    7  gcc
+    8  g++
+    9  java
+   10  java -version
+   11  exit
+   12  tar xvf /mnt/d/Softwares/jdk-16.0.1.tar.gz 
+   13  vi .bashrc
+   14  exit
+   15  java -version
+   16  tar xvf /mnt/d/Softwares/glassfish-6.2.25.tar.gz 
+   17  java -version
+   18  tar xvf /mnt/d/Softwares/jdk-16.0.1.tar.gz 
+   19  vi .bashrc 
+   20  edit
+   21  export PATH=
+   22  export PATH=$PATH:~/:/bin:/usr/bin
+   23  vi
+   24  vi .bashrc
+   25  exit
+   26  vi test.c
+   27  ls
+   28  java -version 
+   29  tar
+   30  tar xvf /mnt/d/Softwares/glassfish-6.2.25.tar.gz 
+   31  ~/glassfish6/glassfish/bin/asadmin start-domain
+   32  gcc
+   33  g++
+   34  exit
+   35  cd Foundations/Basics/
+   36  wget iitdac.met.edu/shared/asm-x64.tar.gz
+   37  tar xf asm-x64.tar.gz 
+   38  vi hello.s
+   39  vi ~/.vimrc 
+   40  vi hello.s
+   41  as hello.s -o hello.o
+   42  ls hello.*
+   43  vi hello.o
+   44  ld hello.o system.o -o hello
+   45  ls hello.*
+   46  ls hello*
+   47  ./hello 
+   48  vi hello.s
+   49  ld hello.o -o hello
+   50  ./hello.o
+   51  ll hello*
+   52  ls -l hello*
+   53  ld hello.o system.o -o hello
+   54  ll hello*
+   55  vi hello
+   56  pwd
+   57  history >cmd23-09-morning.txt
+   58  vi cmd23-09-morning.txt 
+   59  cd ..
+   60  cd ~/
+   61  pwd
+   62  ls
+   63  cp -r Foundations/ /mnt/d
+   64  explore
+   65  ixplore
+   66  clear
+   67  ls
+   68  pwd
+   69  ls
+   70  mkdir ClassCodes
+   71  ls
+   72  cd ClassCodes/
+   73  pwd
+   74  cp -r /mnt/d/Foundations/ .
+   75  ls
+   76  ls 
+   77  cd Foundations/
+   78  cd Basics/\
+   79  cd Basics/
+   80  ls
+   81  clear
+   82  cd  ~
+   83  pwd
+   84  ls
+   85  mkdir practice
+   86  cd practice
+   87  mkdir Foundation_practice
+   88  cd Foundation_practice/
+   89  pwd
+   90  ls ~/ClassCodes/Foundations/Basics/
+   91  cp ~/ClassCodes/Foundations/Basics/cmd23-09-morning.txt .
+   92  cp ~/ClassCodes/Foundations/Basics/common.i .
+   93  cp ~/ClassCodes/Foundations/Basics/system.o .
+   94  cp ~/ClassCodes/Foundations/Basics/hello.s .
+   95  ls
+   96  vi hello.s
+   97  vi cmd23-09-morning.txt 
+   98  as hello.s -o hello.o
+   99  ld hello.o system.o -o run
+  100  ls
+  101  ./run
+  102  cd ~
+  103  clear
+  104  pwd
+  105  ls
+  106  cd ClassCodes/
+  107  ls
+  108  cd ..
+  109  ls
+  110  ls parctice
+  111  ls practice
+  112  ls practice/Foundation_practice/
+  113  cd practice/Foundation_practice/
+  114  ls
+  115  vi test.c
+  116  ls
+  117  cp test.c /mnt/d
+  118  ls
+  119  cd ..\
+  120  ls
+  121  cp -r Foundation_practice/ /mnt/d
+  122  cp -r Foundation_practice /mnt/d
+  123  ls
+  124  cd ~
+  125  ls
+  126  rm -r ClassCodes/
+  127  rm -r practice
+  128  clear
+  129  ls
+  130  ls Foundations/
+  131  ls
+  132  pwd
+  133  mkdir Class_Codes
+  134  cd Class_Codes/
+  135  cp -r /mnt/d/Foundations/ .
+  136  ls
+  137  cd ~
+  138  pwd
+  139  ls
+  140  mkdir practice
+  141  cd practice/
+  142  mkdir foundation_practice
+  143  cd foundation_practice/
+  144  ls ~
+  145  ls ~/Class_Codes/Foundations/Basics/
+  146  cp ~/Class_Codes/Foundations/Basics/cmd23-09-morning.txt  .
+  147  cp ~/Class_Codes/Foundations/Basics/common.i  .
+  148  cp ~/Class_Codes/Foundations/Basics/system.o  .
+  149  cp ~/Class_Codes/Foundations/Basics/hello.s  .
+  150  ls
+  151  vi hello.s
+  152  vi cmd23-09-morning.txt 
+  153  as hello.s -o hello.o
+  154  ld hello.o system.o -o run
+  155  ./run
+  156  vi test.c
+  157  clear
+  158  ls
+  159  cp test.c /mnt/d
+  160  cd ..
+  161  cp -r foundation_practice/ /mnt/d
+  162  exit
+  163  ls
+  164  rm Class_Codes/
+  165  rm -r Class_Codes/
+  166  rm -r practice/
+  167  ls
+  168  clear
+  169  cd Foundations/Basics/
+  170  ls
+  171  ./hello
+  172  vi hello.s
+  173  vi common.i
+  174  vi hello.s
+  175  as hello.s -o hello.o
+  176  vi hello.s
+  177  as hello.s -o hello.o
+  178  ld  hello.o system.o -o hello
+  179  vi hello.s
+  180  as hello.s -o hello.o
+  181  ld  hello.o system.o -o hello
+  182  ./hello 
+  183  vi hello.s
+  184  ./hello 
+  185  as hello.s -o hello.o
+  186  ld  hello.o system.o -o hello
+  187  ./hello 
+  188  vi hello.s
+  189  exit
+  190  ls
+  191  cd Foundations/
+  192  ls
+  193  cd Basic
+  194  cd Basics
+  195  ls
+  196  history >cmd24-09-afternoon.txt 
+  197  vi cmd24-09-afternoon.txt 
+  198  ls
+  199  cp memaddrtest2.s /mnt/d/
+  200  exit
+  201  cd ..
+  202  cp -r Basics/ /mnt/d
+  203  cd Basics/
+  204  vi condjumptest1.s 
+  205  cp condjumptest1.s proccalltest1.s
+  206  vi proccalltest1.s 
+  207  as proccalltest1.s 
+  208  ld a.out system.o -o run
+  209  ./run
+  210  vi proccalltest1.s 
+  211  as proccalltest1.s 
+  212  ld a.out system.o -o run
+  213  ./run
+  214  vi proccalltest1.s 
+  215  vi gcd.s
+  216  as gcd.s -o gcd.o
+  217  objdump -t a.out
+  218  objdump -t gcd.o
+  219  vi gcd.s
+  220  history >cmd26-09-evening.txt 
+  221  vi cmd26-09-evening.txt 
+  222  cp cmd26-09-evening.txt  /mnt/d/Today/
+  223  cp proccalltest1.s  /mnt/d/Today/
+  224  cp gcd.s /mnt/d/Today/
+  225  clear
+  226  exity
+  227  exit
+  228  ls
+  229  clear
+  230  cd Foundations/
+  231  mkdir Language
+  232  cd Language/
+  233  mkdir Elements
+  234  cd Elements/
+  235  vi ~/.bashrc
+  236  exec bash
+  237  cd Foundations/Basics/
+  238  vi gcd.s 
+  239  as gcd.s -o gcd.o
+  240  objdump -t gcd.o
+  241  cp hello.s proccalltest2.s 
+  242  vi proccalltest2.s 
+  243  as proccalltest2.s 
+  244  ld a.out system.o -o run
+  245  ld a.out gcd.o system.o -o run
+  246  ./run 
+  247  vi proccalltest2.s 
+  248  uname -m
+  249  ssh unipro@192.168.1.112
+  250  ssh unipro@192.168.4.112
+  251  vi hllangtest1.c
+  252  ll
+  253  ll *.s
+  254  cc -S hllangtest1.c 
+  255  ll *.s
+  256  as hllangtest1.s
+  257  ld a.out system.o -o run
+  258  ./run 
+  259  vi hllangtest1.c
+  260  vi hllangtest2.py
+  261  python3 hllangtest2.py 
+  262  ssh unipro@192.168.4.112
+  263  vi hllangtest1.c
+  264  cc -S hllangtest1.c 
+  265  as hllangtest1.s
+  266  ld a.out system.o -o run
+  267  ./run 
+  268  vi hllangtest2.py 
+  269  python3 hllangtest2.py 
+  270  history >cmd27-09-morning.txt 
+  271  vi cmd27-09-morning.txt 
+  272  cp -r ../../Foundations/ /mnt/d/DAC0922/CodingSamples/
+  273  exit
+  274  vi variabletest.c
+  275  cc variabletest.c -o run
+  276  ./run 
+  277  vi variabletest.c
+  278  cc variabletest.c -o run
+  279  vi variabletest.c
+  280  ls
+  281  cd ..
+  282  ls
+  283  cp -r Language /mnt/d/
+  284  history > cmd27-09-morning.txt
+  285  vi cmd27-09-morning.txt 
+  286  ls
+  287  cp cmd27-09-morning.txt /mnt/d/Language/Elements/
+  288  cp Language/ /mnt/d/Language/Elements/
+  289  cp -r Language/ /mnt/d/Language/Elements/
+  290  ls
+  291  vi cmd27-09-morning.txt 
+  292  mv cmd27-09-morning.txt cmd27-09-evening.txt 
+  293  exit
+  294  ls
+  295  vi dowhiletest.c
+  296  cc dowhiletest.c -o run
+  297  ./run 
+  298  vi dowhiletest.c
+  299  cc dowhiletest.c -o run
+  300  ./run 
+  301  vi dowhiletest.c
+  302  vi whiletest.c
+  303  cc whiletest.c -o run
+  304  ./run 
+  305  vi whiletest.c
+  306  cc whiletest.c -o run
+  307  ./run 
+  308  vi whiletest.c
+  309  vi fortest.c
+  310  cc fortest.c -o run
+  311  ./run 
+  312  vi fortest.c
+  313  cd ..
+  314  mkdir Functions
+  315  cd Functions/
+  316  cp ../Elements/ifelsetest.c functest.c
+  317  vi functest.c 
+  318  cc functest.c -o run
+  319  ./run 
+  320  vi functest.c 
+  321  cc functest.c -o run
+  322  ./run 
+  323  vi functest.c 
+  324  cc functest.c -o run
+  325  ./run 
+  326  vi functest.c 
+  327  cc functest.c -o run
+  328  ./run 
+  329  echo $?
+  330  vi functest.c 
+  331  history >cmd28-09-evening.txt
+  332  vi cmd
+  333  vi cmd28-09-evening.txt 
+  334  exit
+  335  clear
+  336  vi valptrtest.c
+  337  cc valptrtest.c -o run
+  338  ./run 
+  339  vi valptrtest.c
+  340  cc valptrtest.c -o run
+  341  ./run 
+  342  vi valptrtest.c
+  343  cc valptrtest.c -o run
+  344  ./run 
+  345  vi valptrtest.c
+  346  vi funcptrtest.c
+  347  cc funcptrtest.c -o run
+  348  vi funcptrtest.c
+  349  cc funcptrtest.c -o run
+  350  ./run 
+  351  vi funcptrtest.c
+  352  cc funcptrtest.c -o run
+  353  ./run 
+  354  vi funcptrtest.c
+  355  cc funcptrtest.c -o run
+  356  vi funcptrtest.c
+  357  cc funcptrtest.c -o run
+  358  ./run 
+  359  vi funcptrtest.c
+  360  cc funcptrtest.c -o run
+  361  vi funcptrtest.c
+  362  cc funcptrtest.c -o run
+  363  vi funcptrtest.c
+  364  cc funcptrtest.c -o run
+  365  vi funcptrtest.c
+  366  history >cmd29-09-evening.txt 
+  367  ls
+  368  clear
+  369  la
+  370  ll
+  371  vi cmd29-09-evening.txt 
+  372  exit
+  373  ls
+  374  mkdir
+  375  mkdir Nilesh
+  376  cd Nilesh
+  377  clear
+  378  ls
+  379  vi valptrtest.c 
+  380  vi ptrtest.c
+  381  cc ptrtest.c 
+  382  ./a.out
+  383  ls
+  384  vi ptrtest.c 
+  385  exit
+  386  clear
+  387  cd Foundations/Language/Functions/
+  388  vi banner1.h
+  389  vi banner1.c 
+  390  cc -c banner1.c
+  391  vi banner1.c 
+  392  cc -c banner1.c
+  393  vi banner1.c 
+  394  cc -c banner1.c
+  395  vi banner1.c 
+  396  cd ../Elements/
+  397  cd ../Functions/
+  398  ls
+  399  vi functest.c 
+  400  cc functest.c -o run
+  401  ./run
+  402  vi udttest1.c
+  403  ls /usr/include/
+  404  vi udttest1.c
+  405  cc udttest1.c banner1.o -o run
+  406  ./run 
+  407  vi udttest1.c
+  408  cc udttest1.c banner1.o -o run
+  409  ./run 
+  410  cp banner1.h banner2.h
+  411  cp banner1.c banner2.c
+  412  vi banner2.h
+  413  vi banner2.c
+  414  cp udttest1.c udttest2.c 
+  415  vi udttest2.c 
+  416  cc udttest2.c banner2.o -o run
+  417  cc -c banner2.c
+  418  vi banner2.c
+  419  cc -c banner2.c
+  420  cc udttest2.c banner2.o -o run
+  421  ./run 
+  422  cc -c banner2.c
+  423  vi udttest2.c 
+  424  cc udttest2.c banner2.o -o run
+  425  ./run 
+  426  history >cmd30-09-morning.txt 
+  427  vi cmd30-09-morning.txt 
+  428  cp -r ../../../Foundations/ /mnt/d/DAC0922/CodingSamples/
+  429  ls
+  430  cd ..
+  431  ls
+  432  cd Nilq
+  433  cd Nilesh
+  434  ls
+  435  vi functest.c 
+  436  clear
+  437  vi funcptrtest.c 
+  438  vi funcptrtest2.c
+  439  cc funcptrtest2.c
+  440  ./a.out
+  441  vi funcptrtest2.c
+  442  cc funcptrtest2.c
+  443  ./a.out
+  444  vi funcptrtest2.c
+  445  cc funcptrtest2.c
+  446  clear
+  447  ./a.out
+  448  vi funcptrtest2.c
+  449  cc funcptrtest2.c
+  450  ./a.out
+  451  vi funcptrtest2.c
+  452  cc funcptrtest2.c
+  453  clear
+  454  ./aout
+  455  ./a.out
+  456  vi funcptrtest2.c
+  457  exit
+  458  clear
+  459  ls
+  460  cd ~/Foundations/
+  461  mkdir Methodologies
+  462  cd Methodologies/
+  463  mkdir Abstraction
+  464  cd Abstraction/
+  465  vi funcovldtest.cpp
+  466  c++ funcovldtest.cpp -o run
+  467  vi funcovldtest.cpp
+  468  objdump -t run
+  469  vi funcovldtest.cpp
+  470  c++filt _Z4LoadiPs
+  471  vi funcovldtest.cpp
+  472  c++ funcovldtest.cpp -o run
+  473  vi funcovldtest.cpp
+  474  c++ funcovldtest.cpp -o run
+  475  vi funcovldtest.cpp
+  476  c++ funcovldtest.cpp -o run
+  477  ./run 
+  478  vi funcovldtest.cpp
+  479  cp ../../Language/Functions/primes.o .
+  480  vi extcfunctest.cpp
+  481  c++ extcfunctest.cpp -o run
+  482  c++ extcfunctest.cpp primes.o -o run
+  483  vi extcfunctest.cpp
+  484  objdimp -t primes.o 
+  485  objdump -t primes.o 
+  486  vi extcfunctest.cpp
+  487  c++ extcfunctest.cpp primes.o -o run
+  488  ./run 
+  489  vi funcovldtest.cpp
+  490  vi exceptiontest.cpp
+  491  c++ exceptiontest.cpp -o run
+  492  ./run 
+  493  vi exceptiontest.cpp
+  494  c++ exceptiontest.cpp -o run
+  495  ./run 
+  496  vi exceptiontest.cpp
+  497  c++ exceptiontest.cpp -o run
+  498  ./run 
+  499  vi exceptiontest.cpp
+  500  ./run 
+  501  c++ exceptiontest.cpp -o run
+  502  vi exceptiontest.cpp
+  503  c++ exceptiontest.cpp -o run
+  504  ./run 
+  505  vi exceptiontest.cpp
+  506  c++ exceptiontest.cpp -o run
+  507  ./run 
+  508  vi exceptiontest.cpp
+  509  c++ exceptiontest.cpp -o run
+  510  ./run 
+  511  vi exceptiontest.cpp
+  512  c++ exceptiontest.cpp -o run
+  513  ./run 
+  514  vi exceptiontest.cpp
+  515  c++ exceptiontest.cpp -o run
+  516  ./run 
+  517  vi exceptiontest.cpp
+  518  c++ exceptiontest.cpp -o run
+  519  ./run 
+  520  vi exceptiontest.cpp
+  521  history >cmd30-09-evening.txt 
+  522  vi cmd30-09-evening.txt 
+  523  cd ..
+  524  ls
+  525  cp -r Foundations/ /mnt/d/DAC0922/CodingSamples/
+  526  pwd
+  527  exit
+  528  c++ --version
+  529  clear
+  530  ls
+  531  cd ~/Foundations/Methodologies/Abstraction/
+  532  cp banner1.h banner2.h 
+  533  vi banner2.h 
+  534  cp classtest1.cpp classtest2.cpp 
+  535  vi classtest2.cpp 
+  536  c++ classtest2.cpp -o run
+  537  vi classtest2.cpp 
+  538  vi banner2.h 
+  539  c++ classtest2.cpp -o run
+  540  vi banner2.h 
+  541  c++ classtest2.cpp -o run
+  542  ./run 
+  543  vi banner2.h 
+  544  c++ classtest2.cpp -o run
+  545  ./run 
+  546  vi banner2.h 
+  547  vi classtest2.cpp 
+  548  c++ classtest2.cpp -o run
+  549  ./run 
+  550  vi classtest2.cpp 
+  551  c++ classtest2.cpp -o run
+  552  ./run 
+  553  vi banner2.h 
+  554  vi classtest2.cpp 
+  555  cp banner2.h banner3.h
+  556  vi banner3.h
+  557  cp classtest2.cpp classtest3.cpp
+  558  rm classtest3.cpp 
+  559  cp classtest2.cpp reftypetest.cpp
+  560  vi reftypetest.cpp
+  561  c++ reftypetest.cpp -o run
+  562  vi banner3.h
+  563  vi exceptiontest.cpp 
+  564  vi reftypetest.cpp
+  565  vi banner3.h
+  566  vi reftypetest.cpp 
+  567  c++ reftypetest.cpp -o run
+  568  ./run 
+  569  vi reftypetest.cpp 
+  570  c++ reftypetest.cpp -o run
+  571  ./run 
+  572  vi reftypetest.cpp 
+  573  c++ reftypetest.cpp -o run
+  574  vi reftypetest.cpp 
+  575  c++ reftypetest.cpp -o run
+  576  ./run 
+  577  vi reftypetest.cpp 
+  578  c++ reftypetest.cpp -o run
+  579  ./run 
+  580  vi reftypetest.cpp 
+  581  c++ reftypetest.cpp -o run
+  582  ./run 
+  583  vi reftypetest.cpp 
+  584  c++ reftypetest.cpp -o run
+  585  ./run 
+  586  vi reftypetest.cpp 
+  587  c++ reftypetest.cpp -o run
+  588  ./run 
+  589  vi reftypetest.cpp 
+  590  c++ reftypetest.cpp -o run
+  591  vi reftypetest.cpp 
+  592  ls
+  593  history >cmd01-10-evening.txt 
+  594  vi cmd01-10-evening.txt 
+  595  exit
+  596  ls
+  597  cd Foundations/
+  598  ls
+  599  cd Methodologies/
+  600  ls
+  601  cd Abstraction/
+  602  ls
+  603  ulimit -s
+  604  ulimit -s 10240
+  605  ulimit --help
+  606  vi newoptest.cpp
+  607  c++ newoptest.cpp -o run
+  608  ./run 
+  609  vi newoptest.cpp
+  610  c++ newoptest.cpp -o run
+  611  ./run 
+  612  vi newoptest.cpp
+  613  vi ../../Language/Functions/banner2.c
+  614  vi newoptest.cpp
+  615  c++ newoptest.cpp -o run
+  616  vi ../../Language/Functions/banner2.c
+  617  vi newoptest.cpp
+  618  vi ../../Language/Functions/banner2.c
+  619  c++ newoptest.cpp -o run
+  620  ./run 
+  621  vi newoptest.cpp
+  622  c++ newoptest.cpp -o run
+  623  ./run 
+  624  vi newoptest.cpp
+  625  c++ newoptest.cpp -o run
+  626  ./run 
+  627  vi newoptest.cpp
+  628  vi banner3.h 
+  629  c++ newoptest.cpp -o run
+  630  vi banner3.h 
+  631  c++ newoptest.cpp -o run
+  632  vi newoptest.cpp
+  633  vi interval.h
+  634  vi opovldtest.cpp
+  635  c++ opovldtest.cpp -o run
+  636  vi opovldtest.cpp
+  637  vi interval.h
+  638  c++ opovldtest.cpp -o run
+  639  ./run 
+  640  vi interval.h
+  641  vi opovldtest.cpp
+  642  vi interval.h
+  643  c++ opovldtest.cpp -o run
+  644  ./run 
+  645  vi interval.h
+  646  vi opovldtest.cpp
+  647  vi interval.h
+  648  cp objcopytest.cpp
+  649  cp opovldtest.cpp objcopytest.cpp
+  650  vi objcopytest.cpp 
+  651  c++ objcopytest.cpp -o run
+  652  ./run 
+  653  vi objcopytest.cpp 
+  654  vi interval.h
+  655  c++ objcopytest.cpp -o run
+  656  ./run 
+  657  vi interval.h
+  658  c++ objcopytest.cpp -o run
+  659  vi objcopytest.cpp 
+  660  c++ objcopytest.cpp -o run
+  661  ./run 
+  662  history >cmd03-10-morning.txt 
+  663  vi cmd03-10-morning.txt 
+  664  cp -r ~/Foundations/ /mnt/d/DAC0922/CodingSamples/
+  665  ls
+  666  vi opovldtest.cpp 
+  667  vi interval.h 
+  668  cd ..
+  669  cd ~
+  670  cd Nilesh/
+  671  clear
+  672  ls
+  673  vi emp.h
+  674  vi emp.cpp
+  675  c++ emp.cpp
+  676  vi emp.cpp
+  677  vi emp.h
+  678  vi emp.cpp
+  679  vi emp.h
+  680  vi emp.cpp
+  681  vi emp.h
+  682  vi emp.cpp
+  683  vi emp.h
+  684  c++ emp.cpp
+  685  ./a.out
+  686  c++ emp.cpp
+  687  vi emp.cpp
+  688  clear
+  689  c++ emp.cpp
+  690  vi emp.cpp
+  691  c++ emp.cpp
+  692  vi emp.cpp
+  693  c++ emp.cpp
+  694  clear
+  695  vi emp.cpp
+  696  c++ emp.cpp
+  697  vi emp.h
+  698  vi emp.cpp
+  699  c++ emp.cpp
+  700  ./a.out
+  701  clear
+  702  cd ~
+  703  ls
+  704  cd Foundations/
+  705  ls
+  706  cd Methodologies/
+  707  ls
+  708  cd Abstraction/
+  709  ls
+  710  clear
+  711  ls
+  712  vi banner1.h 
+  713  vi banner2.h 
+  714  vi classtest1.cpp 
+  715  exit
+  716  clear
+  717  cd ~
+  718  pwd
+  719  clear
+  720  cd Foundations/
+  721  la
+  722  cd M
+  723  cd Methodologies/
+  724  ls
+  725  cd Abstraction/
+  726  ls
+  727  cd ..
+  728  cd Polymorphism/
+  729  ls
+  730  clear
+  731  ls
+  732  cd ~/Foundations/Methodologies/Polymorphism/
+  733  vi adttest.cpp
+  734  c++ adttest.cpp series.o -o run
+  735  vi adttest.cpp
+  736  c++ adttest.cpp series.o -o run
+  737  vi adttest.cpp
+  738  c++ adttest.cpp series.o -o run
+  739  vi adttest.cpp
+  740  c++ adttest.cpp series.o -o run
+  741  ./run 
+  742  vi adttest.cpp
+  743  vi series.h
+  744  vi series.cpp
+  745  vi adttest.cpp
+  746  c++ adttest.cpp series.o -o run
+  747  ./run 
+  748  vi series.h
+  749  vi series.cpp 
+  750  vi series.h
+  751  c++ -c series.cpp 
+  752  vi rttitest.cpp
+  753  c++ rttitest.cpp series.o -o run
+  754  vi rttitest.cpp
+  755  c++ rttitest.cpp series.o -o run
+  756  vi rttitest.cpp
+  757  c++ rttitest.cpp series.o -o run
+  758  ./run 
+  759  vi rttitest.cpp
+  760  c++ rttitest.cpp series.o -o run
+  761  ./run 
+  762  vi rttitest.cpp
+  763  history >cmd04-10-evening.txt 
+  764  exit
+  765  pwd
+  766  clear
+  767  pwd
+  768  vi generictest1.cpp
+  769  c++ generictest1.cpp -o run
+  770  vi generictest1.cpp
+  771  ./run 
+  772  vi generictest1.cpp
+  773  c++ generictest1.cpp -o run
+  774  ./run
+  775  vi generictest1.cpp
+  776  c++ generictest1.cpp -o run
+  777  ./run
+  778  vi generictest1.cpp
+  779  c++ generictest1.cpp -o run
+  780  vi generictest1.cpp
+  781  c++ generictest1.cpp -o run
+  782  ./run 
+  783  vi generictest1.cpp
+  784  cp generictest1.cpp generictest2.cpp 
+  785  vi generictest2.cpp 
+  786  c++ generictest2.cpp -o run
+  787  vi generictest2.cpp 
+  788  c++ generictest2.cpp -o run
+  789  ./run 
+  790  vi generictest2.cpp 
+  791  c++ generictest2.cpp -o run
+  792  ./run 
+  793  vi generictest2.cpp 
+  794  c++ generictest2.cpp -o run
+  795  ./run 
+  796  vi generictest2.cpp 
+  797  c++ generictest2.cpp -o run
+  798  vi generictest2.cpp 
+  799  c++ generictest2.cpp -o run
+  800  ./run 
+  801  vi generictest2.cpp 
+  802  c++ generictest2.cpp -o run
+  803  ./run 
+  804  vi generictest2.cpp 
+  805  c++ generictest2.cpp -o run
+  806  vi generictest2.cpp 
+  807  c++ generictest2.cpp -o run
+  808  ./run 
+  809  vi generictest2.cpp 
+  810  vi itertest.cpp
+  811  c++ itertest.cpp -o run
+  812  vi itertest.cpp
+  813  c++ itertest.cpp -o run
+  814  vi itertest.cpp
+  815  c++ itertest.cpp -o run
+  816  ./run 
+  817  LS
+  818  ls
+  819  history >cmd06-10-evening.txt 
+  820  clear
+  821  ls
+  822  cd ~/Nilesh/
+  823  ls
+  824  cd Polymorphism/
+  825  ls
+  826  clear
+  827  ls
+  828  vi bank.h
+  829  vi bank.cpp
+  830  c++ bank.cpp
+  831  vi bank.h
+  832  c++ bank.cpp
+  833  vi bank.cpp
+  834  vi bank.h
+  835  vi bank.cpp
+  836  vi bank.h
+  837  vi bank.cpp
+  838  clear
+  839  c++ bank.cpp
+  840  ./a.out
+  841  clear
+  842  ./a.out
+  843  vi bank.cpp
+  844  vi bank.h
+  845  c++ bank.cpp
+  846  ./a.out
+  847  vi bank.h
+  848  vi bank.cpp
+  849  vi bank.h
+  850  exit
+  851  cls
+  852  history cls
+  853  clear
+  854  cd Foundations/
+  855  mkdir System
+  856  cd System/
+  857  vi kernelsvctest.c
+  858  cc kernelsvctest.c -o run
+  859  ./run Jack Jill John
+  860  ./run Jack and Jill John Jane
+  861  ./run "Jack and Jill" John Jane
+  862  ./run "Jack and Jill" John Jeff
+  863  vi kernelsvctest.c
+  864  cc kernelsvctest.c -o run
+  865  vi kernelsvctest.c
+  866  cc kernelsvctest.c -o run
+  867  ./run Jack Jill John
+  868  vi kernelsvctest.c
+  869  history >cmd07-10-morning.txt 
+  870  vi cmd07-10-morning.txt 
+  871  history >cmd07-10-morning.txt 
+  872  vi cmd07-10-morning.txt 
+  873  cp ~/Foundations/ /mnt/d/DAC0922/CodingSamples/
+  874  cp -r ~/Foundations/ /mnt/d/DAC0922/CodingSamples/
+  875  pwd
+  876  vi kernelsvctest.c 
+  877  cc kernelsvctest.c -o run
+  878  ./run Jack Jill John
+  879  vi kernelsvctest.c 
+  880  cc kernelsvctest.c -o run
+  881  ./run Jack Jill John
+  882  vi kernelsvctest.c 
+  883  ./run Jack Jill John
+  884  cc kernelsvctest.c -o run
+  885  ./run Jack Jill John
+  886  vi kernelsvctest.c 
+  887  cc kernelsvctest.c -o run
+  888  ./run Jack Jill John
+  889  vi kernelsvctest.c 
+  890  cc kernelsvctest.c -o run
+  891  ./run Jack Jill John
+  892  vi signaltest.c
+  893  cc signaltest.c -o run
+  894  ./run 
+  895  vi signaltest.c
+  896  cc signaltest.c -o run
+  897  ./run 
+  898  echo $?
+  899  vi signaltest.c
+  900  cc signaltest.c -o run
+  901  ./run 
+  902  vi signaltest.c
+  903  cc signaltest.c -o run
+  904  ./run 
+  905  objdump -t run
+  906  vi signaltest.c
+  907  cc signaltest.c -o run
+  908  ./run 
+  909  kill -l
+  910  vi signaltest.c
+  911  cc signaltest.c -o run
+  912  ./run 
+  913  vi signaltest.c
+  914  cc signaltest.c -o run
+  915  ./run 
+  916  vi signaltest.c
+  917  cc signaltest.c -o run
+  918  ./run 
+  919  vi signaltest.c
+  920  cc signaltest.c -o run
+  921  ./run 
+  922  kill -l
+  923  vi signaltest.c
+  924  cc signaltest.c -o run
+  925  ./run 
+  926  vi signaltest.c
+  927  man sigaction
+  928  vi signaltest.c
+  929  history >cmd07-10-evening.txt 
