@@ -1,0 +1,16 @@
+  854  cd Foundations/
+  855  mkdir System
+  856  cd System/
+  857  vi kernelsvctest.c
+  858  cc kernelsvctest.c -o run
+  859  ./run Jack Jill John
+  860  ./run Jack and Jill John Jane
+  861  ./run "Jack and Jill" John Jane
+  862  ./run "Jack and Jill" John Jeff
+  863  vi kernelsvctest.c
+  864  cc kernelsvctest.c -o run
+  865  vi kernelsvctest.c
+  866  cc kernelsvctest.c -o run
+  867  ./run Jack Jill John
+  868  vi kernelsvctest.c
+  869  history >cmd07-10-morning.txt 
