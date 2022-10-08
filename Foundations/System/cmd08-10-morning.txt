@@ -1,0 +1,64 @@
+    1  cd Foundations/System/
+    2  vi encbuf.c
+    3  cc -c encbuf.c 
+    4  vi strmiotest.c
+    5  cc strmiotest.c encbuf.o -o run
+    6  ./run
+    7  ./run first.txt
+    8  ./run first.txt second.txt
+    9  vi strmiotest.c
+   10  cc strmiotest.c encbuf.o -o run
+   11  ./run first.txt second.txt
+   12  cp signaltest.c first.txt
+   13  vi first.txt 
+   14  ./run first.txt second.txt
+   15  vi strmiotest.c
+   16  cc strmiotest.c encbuf.o -o run
+   17  ll *.txt
+   18  ./run first.txt second.txt
+   19  ll *.txt
+   20  ./run first.txt second.txt
+   21  rm second.txt 
+   22  vi strmiotest.c
+   23  cc strmiotest.c encbuf.o -o run
+   24  vi first.txt 
+   25  ./run first.txt second.txt
+   26  ll *.txt
+   27  vi second.txt 
+   28  ./run first.txt second.txt
+   29  ./run second.txt third.txt
+   30  ll *.txt
+   31  vi third.txt 
+   32  vi strmiotest.c
+   33  vi encbuf.c 
+   34  vi strmiotest.c
+   35  vi revbuf.c
+   36  cc -c revbuf.c 
+   37  cp strmiotest.c memmapiotest.c
+   38  vi memmapiotest.c 
+   39  cc memmapiotest.c revbuf.o -o run
+   40  vi memmapiotest.c 
+   41  cc memmapiotest.c revbuf.o -o run
+   42  ./run 
+   43  vi first.txt 
+   44  ./run first.txt 
+   45  vi memmapiotest.c 
+   46  cc memmapiotest.c revbuf.o -o run
+   47  vi first.txt 
+   48  ./run first.txt 
+   49  vi first.txt 
+   50  ./run first.txt 
+   51  vi first.txt 
+   52  ./run first.txt
+   53  vi first.txt 
+   54  cc memmapiotest.c revbuf.o -o run
+   55  vi first.txt 
+   56  ./run first.txt
+   57  vi first.txt 
+   58  vi memmapiotest.c 
+   59  man fstat
+   60  vi memmapiotest.c 
+   61  man mmap
+   62  vi memmapiotest.c 
+   63  ls
+   64  history >cmd08-10-morning.txt 

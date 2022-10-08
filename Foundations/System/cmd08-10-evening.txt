@@ -1,0 +1,69 @@
+    1  clear
+    2  cd ~
+    3  pwd
+    4  cd Nilesh
+    5  ls
+    6  cd ..
+    7  ls
+    8  cd Foundations/
+    9  ls
+   10  cd System/
+   11  ls
+   12  vi encbuf.c 
+   13  vi strmiotest.c 
+   14  cc -shared revbuf.c -o librevbuf.so
+   15  cc memmapiotest.c -L. -lrevbuf -o run
+   16  cc memmapiotest.c  -lrevbuf -o run
+   17  cc memmapiotest.c -L. -lrevbuf -o run
+   18  ./run 
+   19  export LD_LIBRARY_PATH=.
+   20  ./run 
+   21  ./run first.txt 
+   22  vi ~/.bashrc 
+   23  cc memmapiotest.c  -o run
+   24  cc memmapiotest.c -L. -lrevbuf -o run
+   25  ./run 
+   26  unset LD_LIBRARY_PATH
+   27  ./run 
+   28  cp librevbuf.so /usr/lib
+   29  sudo cp librevbuf.so /usr/lib
+   30  ./run 
+   31  sudo rm /usr/lib/librevbuf.so 
+   32  ./run 
+   33  cc -shared encbuf.c -o libencbuf.so
+   34  vi encbuf.c 
+   35  vi revbuf.c 
+   36  vi encbuf.c 
+   37  cc -shared encbuf.c -o libencbuf.so
+   38  vi encbuf.c 
+   39  cc -shared encbuf.c -o libencbuf.so
+   40  cc -shared -fPIC encbuf.c -o libencbuf.so
+   41  vi shobjdltest.c
+   42  cc shobjdltest.c -o run
+   43  cc shobjdltest.c -ldl -o run 
+   44  ls /usr/lib/x86_64-linux-gnu/
+   45  ls /usr/lib/x86_64-linux-gnu/libdl.so
+   46* 
+   47  ./run 
+   48  man dlopen 
+   49  ./run libencbuf.so
+   50  echo $LD_LIBRARY_PATH
+   51  ./run ./libencbuf.so
+   52  export LD_LIBRARY_PATH=.
+   53  ./run libencbuf.so
+   54  ./run librevbuf.so
+   55  ./run libxyz.so
+   56  ./run libm.so
+   57  ./run libdl.so
+   58  vi shobjdltest.c
+   59  cc shobjdltest.c -ldl -o run 
+   60  ./run librevbuf.so
+   61  ./run libencbuf.so
+   62  ./run libxyz.so
+   63  ./run libdl.so
+   64  vi shobjdltest.c
+   65  cc shobjdltest.c -ldl -o run 
+   66  ./run libencbuf.so 
+   67  ./run librevbuf.so 
+   68  vi shobjdltest.c
+   69  history >cmd08-10-evening.txt 
