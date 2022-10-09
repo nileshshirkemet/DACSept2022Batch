@@ -1,0 +1,47 @@
+    1  clear
+    2  ps -A
+    3  cd Foundations/System/
+    4  vi greet.c
+    5  cc greet.c -o greet
+    6  ./greet Jack Jill John
+    7  vi greet.c
+    8  vi childproctest.c
+    9  cc childproctest.c -o run
+   10  ./run 
+   11  vi childproctest.c
+   12  man execl
+   13  cc childproctest.c -o run
+   14  man execl
+   15  vi childproctest.c
+   16  man execl
+   17  cc childproctest.c -o run
+   18  ./run 
+   19  vi childproctest.c
+   20  cc childproctest.c -o run
+   21  ./run 
+   22  vi childproctest.c
+   23  vi childproctest.c 
+   24  vi semaphoretest.c
+   25  vi worker.h
+   26  vi semaphoretest.c 
+   27  cc semaphoretest.c -o run
+   28  ./run 
+   29  vi semaphoretest.c 
+   30  cc semaphoretest.c -o run
+   31  vi semaphoretest.c 
+   32  cc semaphoretest.c -o run
+   33  vi semaphoretest.c 
+   34  cc semaphoretest.c -o run
+   35  ./run 
+   36  vi semaphoretest.c 
+   37  cc semaphoretest.c -o run
+   38  vi semaphoretest.c 
+   39  cc semaphoretest.c -o run
+   40  cc semaphoretest.c -o run -lpthread
+   41  ./run 
+   42  vi semaphoretest.c 
+   43  cc semaphoretest.c -o run -lpthread
+   44  ./run 
+   45  vi semaphoretest.c 
+   46  ls
+   47  history >cmd09-10-morning.txt 
