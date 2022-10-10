@@ -1,0 +1,27 @@
+    1  ls
+    2  java 
+    3  java --version
+    4  mkdir Java
+    5  cd Java/
+    6  mkdir Language
+    7  cd Language/
+    8  mkdir Basics
+    9  cd Basics/
+   10  java -version
+   11  vi Hello.java
+   12  ls
+   13  javac Hello.java 
+   14  ls
+   15  java Greeter 
+   16  ssh unipro@192.168.4.112
+   17  ssh pi@192.168.4.112
+   18  vi Hello.java
+   19  javac Hello.java 
+   20  java Greeter 
+   21  vi Hello.java
+   22  javac Hello.java 
+   23  ls
+   24  java Greeter 
+   25  ls
+   26  pwd
+   27  history >cmd10-10-evening.txt
