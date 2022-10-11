@@ -1,0 +1,75 @@
+    1  ls
+    2  cd jdk-16.0.1/AVA
+    3  cd java
+    4  cd Java
+    5  ls
+    6  cd Language/
+    7  ls
+    8  cd Basics
+    9  ls
+   10  clear
+   11  cp -r ClassTypeTest/ EnumTypeTest
+   12  cd EnumTypeTest/
+   13  vi Investment.java 
+   14  vi RiskLevel.java
+   15  javac RiskLevel.java 
+   16  ls
+   17  vi Investment.java 
+   18  javac Investment.java 
+   19  javac Program.java 
+   20  java Program 200000 5
+   21  vi Program.java 
+   22  javac Program.java 
+   23  java Program 200000 5
+   24  vi Program.java 
+   25  vi Investment.java 
+   26  vi RiskLevel.java
+   27  vi Investment.java 
+   28  vi Program.java 
+   29  cd ..
+   30  mkdir VarArgTest
+   31  cd VarArgTest/
+   32  vi Program.java
+   33  javac Program.java
+   34  java Program 
+   35  vi Program.java
+   36  javac Program.java
+   37  vi Program.java
+   38  javac Program.java
+   39  java Program 
+   40  vi Program.java
+   41  javac Program.java
+   42  vi Program.java
+   43  javac Program.java
+   44  java Program 
+   45  vi Program.java
+   46  javac Program.java
+   47  java Program 
+   48  java Program 35.6 43.2
+   49  vi Program.java
+   50  vi Deviation.java
+   51  vi Program.java 
+   52  javac Program.java
+   53  java Program 35.6 43.2
+   54  vi Deviation.java
+   55  vi Program.java 
+   56  cd ..
+   57  mkdir Inheritance
+   58  cd Inheritance/
+   59  ls
+   60  cd ..
+   61  ls
+   62  cd Basics/
+   63  ls
+   64  vi EnumTypeTest/
+   65  cd EnumTypeTest/
+   66  ls
+   67  vi Investment.java 
+   68  vi RiskLevel.java 
+   69  javap RiskLevel
+   70  vi RiskLevel.java 
+   71  vi Investment.java 
+   72  ls
+   73  cd ..
+   74  ls
+   75  history >cmd11-10-evening.txt 

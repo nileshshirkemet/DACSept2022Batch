@@ -1,0 +1,35 @@
+ 1284  cd Java/Language/Basics/
+ 1285  mkdir PrimitiveTypeTest
+ 1286  cd PrimitiveTypeTest/
+ 1287  vi Investment.java
+ 1288  javac Investment.java 
+ 1289  vi Investment.java
+ 1290  javac Investment.java 
+ 1291  vi Investment.java
+ 1292  javac Investment.java 
+ 1293  vi Program.java
+ 1294  javac Program.java 
+ 1295  ls
+ 1296  java Program 75000 6
+ 1297  java Program 50000 20
+ 1298  vi Program.java
+ 1299  javac Program.java 
+ 1300  java Program 75000 6
+ 1301  vi Program.java
+ 1302  cd ..
+ 1303  cp -r PrimitiveTypeTest/ ClassTypeTest
+ 1304  cd ClassTypeTest/
+ 1305  vi Investment.java 
+ 1306  vi Program.java 
+ 1307  javac Program.java 
+ 1308  vi Program.java 
+ 1309  javac Program.java 
+ 1310  java Program 200000 5
+ 1311  java Program 75000 6
+ 1312  vi Program.java 
+ 1313  javac Program.java 
+ 1314  java Program 200000 5
+ 1315  vi Investment.java 
+ 1316  vi Program.java 
+ 1317  ls
+ 1318  history >cmd11-10-morning
