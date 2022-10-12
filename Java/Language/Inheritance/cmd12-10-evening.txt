@@ -1,0 +1,77 @@
+    1  cd Java/
+    2  ls
+    3  cd ..
+    4  cd Java/Language/Inheritance/
+    5  cd SubclassTest/
+    6  vi Program.java 
+    7  javac Program.java 
+    8  vi Program.java 
+    9  javac Program.java 
+   10  java Program 
+   11  vi Program.java 
+   12  javac Program.java 
+   13  cd ..
+   14  mkdir ObjectClassTest
+   15  cd ObjectClassTest/
+   16  vi Interval.java
+   17  javac Interval.java
+   18  vi Program.java
+   19  javac Program.java
+   20  vi Program.java
+   21  javac Program.java
+   22  vi Program.java
+   23  javac Program.java
+   24  javap Interval
+   25  javap -p Interval
+   26  javap -p Student
+   27  javap java.lang.Object
+   28  vi Program.java
+   29  javac Program.java
+   30  vi Program.java
+   31  javac Program.java
+   32  java Program 
+   33  vi Program.java
+   34  javac Program.java
+   35  java Program 
+   36  vi Interval.java 
+   37  javap String
+   38  javap java.lang.String
+   39  javap java.lang.Math
+   40  vi Interval.java 
+   41  javac Interval.java 
+   42  java Program 
+   43  vi Interval.java 
+   44  javac Interval.java 
+   45  java Program 
+   46  vi Interval.java 
+   47  vi Program.java
+   48  javac Program.java 
+   49  java Program 
+   50  vi Interval.java 
+   51  javap java.lang.Object
+   52  vi Interval.java 
+   53  javac Interval.java 
+   54  vi Interval.java 
+   55  javac Interval.java 
+   56  vi Interval.java 
+   57  vi Program.java 
+   58  javac Program.java 
+   59  java Program 
+   60  vi Program.java 
+   61  cd ..
+   62  ls
+   63  cd ..
+   64  ls
+   65  cd ..
+   66  ls
+   67  cd Language/
+   68  ls
+   69  cd Inheritance/
+   70  ls
+   71  cd SubclassTest/
+   72  ls
+   73  mv cmd12-10-morning.txt ../
+   74  ls
+   75  cd ..
+   76  ls
+   77  history >cmd12-10-evening.txt

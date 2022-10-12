@@ -1,0 +1,34 @@
+ 1369  cd Java/Language/Inheritance/
+ 1370  ls
+ 1371  mkdir SubclassTest
+ 1372  cd SubclassTest/
+ 1373  mkdir src
+ 1374  vi src/Employee.java
+ 1375  ls
+ 1376  javac -d . src/Employee.java 
+ 1377  ls
+ 1378  ls payroll/
+ 1379  vi src/Employee.java
+ 1380  javac -d . src/Employee.java 
+ 1381  vi src/Employee.java
+ 1382  javac -d . src/Employee.java 
+ 1383  vi src/Employee.java
+ 1384  javac -d . src/Employee.java 
+ 1385  vi src/Employee.java
+ 1386  vi src/SalesPerson.java
+ 1387  javac -d . src/SalesPerson.java
+ 1388  ls payroll/
+ 1389  vi Program.java
+ 1390  javac Program.java
+ 1391  vi Program.java
+ 1392  javac Program.java
+ 1393  vi Program.java
+ 1394  javac Program.java
+ 1395  vi Program.java
+ 1396  javac Program.java 
+ 1397  vi Program.java
+ 1398  javac Program.java
+ 1399  java Program 
+ 1400  vi Program.java
+ 1401  vi src/SalesPerson.java 
+ 1402  history >cmd12-10-morning.txt
