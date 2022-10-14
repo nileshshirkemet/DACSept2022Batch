@@ -1,0 +1,81 @@
+    1  clear
+    2  cd Java/Language/
+    3  mkdir Generics
+    4  cd Generics/
+    5  mkdir TypeParamTest1
+    6  cd TypeParamTest1/
+    7  vi Program1.java
+    8  javac Program1.java 
+    9  java Program 32
+   10  java Program 23
+   11  vi Program1.java
+   12  javac Program1.java 
+   13  vi Program1.java
+   14  javac Program1.java 
+   15  java Program 32
+   16  java Program 23
+   17  vi Program1.java
+   18  javac Program1.java 
+   19  vi Program1.java
+   20  cp Program1.java Program2.java
+   21  vi Program2.java 
+   22  javac Program2.java 
+   23  java Program 32
+   24  java Program 23
+   25  vi Program2.java 
+   26  javac Program2.java 
+   27  java Program 32
+   28  java Program 23
+   29  vi Program2.java 
+   30  javac Program2.java 
+   31  java Program 23
+   32  vi Program2.java 
+   33  javac Program2.java 
+   34  java Program 32
+   35  java Program 23
+   36  java Program 23 jack
+   37  vi Program2.java 
+   38  cp Program2.java Program3.java
+   39  vi Program3.java 
+   40  javac Program3.java 
+   41  java Program 32
+   42  java Program 23
+   43  vi Program3.java 
+   44  javac Program3.java 
+   45  vi Program3.java 
+   46  javac Program3.java 
+   47  vi Program3.java 
+   48  javac Program3.java 
+   49  vi Program3.java 
+   50  javac Program3.java 
+   51  vi Program3.java 
+   52  javac Program3.java 
+   53  javap java.lang.String
+   54  javap java.lang.Double
+   55  vi Program3.java 
+   56  javap java.lang.Comparable
+   57  vi Program3.java 
+   58  javap java.lang.String
+   59  javap java.lang.Double
+   60  vi Program3.java 
+   61  javac Program3.java 
+   62  java Program 
+   63  vi Program3.java 
+   64  cp ../../Inheritance/ObjectClassTest/Interval.java .
+   65  javac Interval.java 
+   66  vi Program3.java 
+   67  javac Program3.java 
+   68  vi Program3.java 
+   69  vi Interval.java 
+   70  javap java.lang.Comparable
+   71  vi Interval.java 
+   72  javac Interval.java 
+   73  javac Program3.java 
+   74  java Program 
+   75  vi Program
+   76  vi Program3.java 
+   77  javac Program3.java 
+   78  vi Program3.java 
+   79  ls
+   80  cd ..
+   81  history >cmd14-10-evening.txt
