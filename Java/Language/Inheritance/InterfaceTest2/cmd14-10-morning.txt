@@ -1,0 +1,74 @@
+    1  cd Java/Language/Inheritance/
+    2  cp -r AbstractClassTest/ InterfaceTest1
+    3  cd InterfaceTest1/
+    4  vi src/Profitable.java
+    5  javac -d . src/*.java
+    6  javap edu.met.Profitable
+    7  javap edu.met.banking.Profitable
+    8  vi src/SavingsAccount.java 
+    9  javac -d . src/*.java
+   10  vi src/Profitable.java
+   11  vi src/SavingsAccount.java 
+   12  vi Program.java 
+   13  javac Program.java 
+   14  java Program 
+   15  vi Program.java 
+   16  javac Program.java 
+   17  vi Program.java 
+   18  javac Program.java 
+   19  vi Program.java 
+   20  javac Program.java 
+   21  vi Program.java 
+   22  javac Program.java 
+   23  java Program 
+   24  vi Program.java 
+   25  ls
+   26  cd ../AbstractClassTest/
+   27  ls
+   28  vi Program.java 
+   29  cd ../InterfaceTest1/
+   30  vi Program.java 
+   31  cd ../
+   32  mkdir InterfaceTest2
+   33  cd InterfaceTest2
+   34  mkdir src
+   35  vi src/TaxPayer.java
+   36  javac -d . src/TaxPayer.java
+   37  vi src/Programmer.java
+   38  vi src/Engineer.java
+   39  javac -d . src/Engineer.java
+   40  ls
+   41  ls taxation/
+   42  vi src/*.java
+   43  javac -d . src/*.java
+   44  ls taxation/
+   45  vi Program1.java
+   46  ls
+   47  javac Program1.java 
+   48  ls
+   49  vi Program1.java
+   50  javac Program1.java
+   51  vi Program1.java
+   52  javac Program1.java
+   53  java Program jill 80000
+   54  java Program jack 5
+   55  java Program jim 120000
+   56  vi Program1.java
+   57  javac Program1.java
+   58  java Program jill 90000
+   59  java Program jack 4
+   60  java Program jim 120000
+   61  vi Program1.java
+   62  cp Program1.java Program2.java
+   63  javap java.lang.AutoCloseable
+   64  vi Program2.java 
+   65  javac Program2.java 
+   66  vi Program2.java 
+   67  javac Program2.java 
+   68  vi Program2.java 
+   69  javac Program2.java 
+   70  java Program jill 90000
+   71  java Program jack 4
+   72  java Program jim 120000
+   73  vi Program2.java 
+   74  history >cmd14-10-morning.txt

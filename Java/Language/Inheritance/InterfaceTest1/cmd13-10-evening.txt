@@ -1,0 +1,52 @@
+    1  clear
+    2  vi src/Banker.java 
+    3  vi Program.java
+    4  javac Program.java 
+    5  vi src/Banker.java 
+    6  javac src/*.java
+    7  javac Program.java 
+    8  vi Program.java
+    9  javac Program.java 
+   10  vi Program.java
+   11  javac Program.java 
+   12  vi Program.java
+   13  javac Program.java 
+   14  vi Program.java
+   15  javac Program.java 
+   16  java Program
+   17  vi Program.java
+   18  vi src/Account.java 
+   19  javac -d . src/*.java
+   20  java Program
+   21  javac Program.java 
+   22  java Program
+   23  vi Program.java
+   24  javac Program.java 
+   25  java Program 9000
+   26  java Program 12000
+   27  java Program 5OOO
+   28  vi Program.java
+   29  vi src/InsufficientFundsException.java 
+   30  javap java.lang.InterruptedException
+   31  javap java.lang.NumberFormatException
+   32  javap java.lang.IllegalArgumentException
+   33  vi Program.java
+   34  javac Program.java 
+   35  java Program 5OOO
+   36  java Program 12000
+   37  vi Program.java
+   38  javac Program.java 
+   39  vi Program.java
+   40  java Program
+   41  vi Program.java
+   42  javac Program.java 
+   43  vi Program.java
+   44  javac Program.java 
+   45  java Program 9000
+   46  vi Program.java
+   47  javac Program.java 
+   48  vi Program.java
+   49  javac Program.java 
+   50  java Program 9000
+   51  vi Program.java
+   52  history >cmd13-10-evening.txt 
