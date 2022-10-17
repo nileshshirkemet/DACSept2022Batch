@@ -1,0 +1,85 @@
+    1  ls
+    2  cd Java/
+    3  ls
+    4  cd Language/
+    5  ls
+    6  cd Generics/
+    7  ls
+    8  clear
+    9  pwd
+   10  cp -r ListTest/ MapTest
+   11  cd MapTest/
+   12  ls
+   13  vi Program.java 
+   14  javac Program.java 
+   15  java Program Thursday
+   16  java Program Monday
+   17  java Program Sunday
+   18  vi Program.java 
+   19  javac Program.java 
+   20  java Program
+   21  vi Program.java 
+   22  javac Program.java 
+   23  java Program
+   24  vi Program.java 
+   25  javac Program.java 
+   26  java Program
+   27  java Program tuesday
+   28  java Program Saturday
+   29  vi Program.java 
+   30  cd ../..
+   31  vi ../../Foundations/Language/Functions/funcptrtest.c 
+   32  vi ../../Foundations/Methodologies/Polymorphism/generictest2.cpp 
+   33  ls
+   34  mkdir Runtime
+   35  cd Runtime/
+   36  mkdir FunctionalTest1
+   37  cd FunctionalTest1
+   38  vi Investment.java
+   39  vi InterestRate.java
+   40  vi Investment.java
+   41  javac Investment.java
+   42  ls
+   43  vi Program1.java
+   44  javac Program1.java 
+   45  java Program 
+   46  :q
+   47  vi Program1.java
+   48  javac Program1.java 
+   49  java Program 
+   50  vi InterestRate.java 
+   51  vi Investment.java 
+   52  vi Program1.java
+   53  vi InterestRate.java 
+   54  javap InterestRate
+   55  javap java.lang.Runnable
+   56  javap java.lang.Iterable
+   57  javap java.util.Iterator
+   58  javap java.util.stream.Stream
+   59  vi InterestRate.java 
+   60  cp Program1.java Program2.java
+   61  vi Program2.java 
+   62  javac Program2.java 
+   63  java Program 
+   64  ls
+   65  rm Program\$SafeScheme.class 
+   66  ls
+   67  javac Program2.java 
+   68  ls
+   69  vi Program2.java 
+   70  javac Program2.java 
+   71  vi Program2.java 
+   72  javac Program2.java 
+   73  vi InterestRate.java 
+   74  javac Program2.java 
+   75  vi InterestRate.java 
+   76  javac Program2.java 
+   77  vi InterestRate.java 
+   78  javac Program2.java 
+   79  vi InterestRate.java 
+   80  vi Program2.java 
+   81  javac Program2.java 
+   82  java Program 
+   83  javap -p Program
+   84  vi Program2.java 
+   85  history >cmd17-10-morning.txt
