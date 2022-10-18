@@ -1,0 +1,74 @@
+    1  cd Java/Language/Runtime/ReflectionTest1/
+    2  vi Shop.java 
+    3  javac Shop.java 
+    4  vi Program1.java 
+    5  java Program 
+    6  vi Shop.java 
+    7  vi Program1.java 
+    8  javac Program1.java 
+    9  javac Shop.java 
+   10  javac Program1.java 
+   11  java Program 
+   12  vi Program1.java 
+   13  vi Shop.java 
+   14  javac Shop.java 
+   15  cp Program1.java Program2.java
+   16  vi Program2.java 
+   17  javac Program2.java 
+   18  java Program 
+   19  vi Program2.java 
+   20  javac Program2.java 
+   21  java Program 
+   22  vi Program2.java 
+   23  javac Program2.java 
+   24  java Program 
+   25  vi Program2.java 
+   26  javac Program2.java 
+   27  java Program 
+   28  vi Program2.java 
+   29  vi Shop.java 
+   30  javac Shop.java 
+   31  vi Shop.java 
+   32  javac Shop.java 
+   33  vi Shop.java 
+   34  javac Shop.java 
+   35  vi Shop.java 
+   36  javac Shop.java 
+   37  vi Shop.java 
+   38  javac Shop.java 
+   39  vi Program2.java 
+   40  javac Program2.java 
+   41  java Program 
+   42  vi Program2.java 
+   43  javac Program2.java 
+   44  java Program 
+   45  vi Program2.java 
+   46  vi Shop.java 
+   47  vi Program2.java 
+   48  javac Program2.java 
+   49  javac Shop.java 
+   50  javac Program.java
+   51  javac Program2.java
+   52  java Program 
+   53  vi Program2.java 
+   54  cd ..
+   55  mkdir ReflectionTest2
+   56  cd ReflectionTest2
+   57  mkdir src
+   58  vi src/EducationLoan.java
+   59  vi src/PersonalLoan.java
+   60  vi src/HomeLoan.java
+   61  javac -d . src/*.java
+   62  vi Program1.java
+   63  javac Program1.java 
+   64  vi Program1.java
+   65  javac Program1.java 
+   66  java Program 1200000 finance.EducationLoan common
+   67  java Program 1200000 finance.HomeLoan woman
+   68  java Program 1200000 finance.HomeLoan common
+   69  java Program 1200000 finance.Personal employee
+   70  java Program 1200000 finance.PersonalLoan employee
+   71  java Program 1200000 finance.CarLoan common
+   72  java Program 1200000 finance.HomeLoan senior
+   73  vi Program1.java
+   74  history >cmd18-10-morning.txt

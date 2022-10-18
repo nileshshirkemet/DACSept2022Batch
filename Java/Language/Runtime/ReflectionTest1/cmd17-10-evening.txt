@@ -1,0 +1,76 @@
+    1  clear
+    2  ls
+    3  cd Java/Language/Runtime/
+    4  mkdir FunctionalTest2/
+    5  cd FunctionalTest2
+    6  vi Shop.java
+    7  ls
+    8  javac Shop.java
+    9  ls
+   10  javap -p Item
+   11  vi Shop.java
+   12  javac Shop.java
+   13  ls
+   14  javap -p Customer
+   15  vi Shop.java
+   16  javac Shop.java
+   17  vi Program.java
+   18  javac Program.java 
+   19  java Program items intel
+   20  java Program items samsung
+   21  java Program items oracle
+   22  vi Program.java
+   23  java Program items LogiTech
+   24  vi Program.java
+   25  javac Program.java 
+   26  java Program items LogiTech
+   27  vi Program.java
+   28  vi Shop.java 
+   29  javap -p Item
+   30  vi Shop.java 
+   31  vi Program.java
+   32  javap java.util.Arrays
+   33  javap java.util.stream.Stream
+   34  vi Program.java
+   35  javac Program.java 
+   36  vi Program.java
+   37  javac Program.java 
+   38  java Program customers 0
+   39  vi Program.java
+   40  javac Program.java 
+   41  java Program customers 0
+   42  javac Program.java 
+   43  vi Program.java
+   44  javac Program.java 
+   45  java Program customers 0
+   46  java Program customers 40000
+   47  java Program customers 50000
+   48  java Program customers 60000
+   49  java Program customers 80000
+   50  java Program customers 90000
+   51  java Program customers 100000
+   52  vi Program.java
+   53  javac Program.java 
+   54  java Program customers 40000
+   55  vi Program.java
+   56  java Program customers 0
+   57  vi Program.java
+   58  vi Shop.java 
+   59  javac Shop.java 
+   60  java Program customers 0
+   61  vi Program.java
+   62  cd ..
+   63  mkdir ReflectionTest1
+   64  cd ReflectionTest1/
+   65  cp ../FunctionalTest2/Shop.java .
+   66  javac Shop.java 
+   67  vi Program1.java
+   68  javac Program1.java
+   69  java Program 
+   70  vi Program1.java
+   71  javac Program1.java
+   72  vi Program1.java
+   73  javac Program1.java
+   74  java Program 
+   75  vi Program1.java
+   76  history >cmd17-10-evening.txt
