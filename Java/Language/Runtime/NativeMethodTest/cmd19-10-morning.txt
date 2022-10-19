@@ -1,0 +1,44 @@
+    1  cd Java/Language/Runtime/
+    2  mkdir NativeMethodTest
+    3  cd NativeMethodTest/
+    4  cp ~/Foundations/Language/Functions/gcd.o .
+    5  vi LegacyBridge.java
+    6  javac -h . LegacyBridge.java 
+    7  ls
+    8  vi LegacyBridge.h
+    9  export CPATH=~/jdk-16.0.1/include/:~/jdk-16.0.1/include/linux/
+   10  vi legacybridgesup.c
+   11  vi LegacyBridge.h
+   12  vi legacybridgesup.c
+   13  cc -shared -fPIC legacybridgesup.c gcd.o -o liblegacybridgesup.so
+   14  cc -z noexecstack -shared -fPIC legacybridgesup.c gcd.o -o liblegacybridgesup.so
+   15  vi Program.java
+   16  javac Program.java 
+   17  java Program gcd 24 42
+   18  java -Djava.library.path=. Program gcd 24 42
+   19  java -Djava.library.path=. Program gcd 56 70
+   20  export LD_LIBRARY_PATH=.
+   21  java Program gcd 24 42
+   22  vi LegacyBridge.java 
+   23  vi LegacyBridge.h
+   24  vi legacybridgesup.c
+   25  cc -z noexecstack -shared -fPIC legacybridgesup.c gcd.o -o liblegacybridgesup.so
+   26  vi Program.java 
+   27  vi LegacyBridge.
+   28  vi LegacyBridge.java 
+   29  javac -h . LegacyBridge.java 
+   30  vi LegacyBridge.h
+   31  vi legacybridgesup.c 
+   32  vi ~/Foundations/System/strmiotest.c 
+   33  vi legacybridgesup.c 
+   34  cc -z noexecstack -shared -fPIC legacybridgesup.c gcd.o -o liblegacybridgesup.so
+   35  vi Program.java 
+   36  vi LegacyBridge.java 
+   37  vi Program.java 
+   38  javac Program.java 
+   39  java Program gcd 28 42 70 98 154
+   40  java Program gcd 19998 29997 39996 49995 59994 69993 79992 
+   41  vi Program.java 
+   42  vi legacybridgesup.c 
+   43  history 
+   44  history >cmd19-10-morning.txt
