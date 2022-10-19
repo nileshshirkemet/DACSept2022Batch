@@ -1,0 +1,78 @@
+    1  cd Java/Language/
+    2  ls
+    3  cd Runtime/
+    4  ls
+    5  cd NativeMethodTest/
+    6  ls
+    7  vi cmd19-10-morning.txt 
+    8  echo $CPATH
+    9  vi cmd19-10-morning.txt 
+   10  cc -z noexecstack -shared -fPIC legacybridgesup.c gcd.o -o liblegacybridgesup.so 
+   11  vi cmd19-10-morning.txt 
+   12  export CPATH=~/jdk-16.0.1/include/:~/jdk-16.0.1/include/linux/
+   13  vi cmd19-10-morning.txt 
+   14  cc -z noexecstack -shared -fPIC legacybridgesup.c gcd.o -o liblegacybridgesup.so 
+   15  cp ~/Foundations/Methodologies/Polymorphism/series.h .
+   16  vi series.h 
+   17  c++ -fPIC -c ~/Foundations/Methodologies/Polymorphism/series.cpp 
+   18  ls
+   19  vi Computation.java
+   20  javac -h . Computation.java 
+   21  vi Computation.h
+   22  javap -p -s Computation
+   23  vi computationsup.cpp
+   24  c++ -shared -fPIC computationsup.cpp series.o -o libcomputation.so
+   25  vi Program.java 
+   26  javac Program.java 
+   27  java Program compute 2 5 10
+   28  java -Djava.library.path=. Program compute 2 5 10
+   29  ls
+   30  rm libcomputation.so 
+   31  c++ -shared -fPIC computationsup.cpp series.o -o libcomputationsup.so
+   32  java -Djava.library.path=. Program compute 2 5 10
+   33  vi compute.sh
+   34  vi program.sh
+   35  bash program.sh gcd 24 36
+   36  chmod a+x program.sh 
+   37  ./program.sh compute 2 5 10
+   38  vi program.sh 
+   39  vi computationsup.cpp
+   40  cd ../..
+   41  cd ..
+   42  ls
+   43  mkdir Platform
+   44  cd Platform/
+   45  mkdir Basics
+   46  cd Basics/
+   47  mkdir ThreadTest
+   48  cd ThreadTest/
+   49  vi Worker.java
+   50  javac Worker.java 
+   51  vi Program.java
+   52  vi Program1.java
+   53  javac Program1.java 
+   54  java Program 
+   55  java Program 3
+   56  cp Program1.java Program2.java
+   57  vi Program2.java 
+   58  javap java.lang.Thread
+   59  javap java.lang.Runnable
+   60  vi Program2.java 
+   61  javac Program2.java 
+   62  java Program 
+   63  java Program 3
+   64  java Program 12
+   65  vi Program2.java 
+   66  javac Program2.java 
+   67  java Program 3
+   68  java Program 5
+   69  java Program 12
+   70  vi Program2.java 
+   71  cp Program2.java Program3.java
+   72  vi Program3.java 
+   73  javac Program3.java 
+   74  java Program 5
+   75  vi Program3.java 
+   76  clear
+   77  cd ..
+   78  history >cmd19-10-evening.txt
