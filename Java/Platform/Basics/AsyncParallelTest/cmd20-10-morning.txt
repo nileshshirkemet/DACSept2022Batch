@@ -1,0 +1,41 @@
+    1  cd Java/Platform/Basics/
+    2  ls
+    3  mkdir MonitorTest
+    4  cd MonitorTest/
+    5  cp ../ThreadTest/Worker.java .
+    6  vi Worker.java 
+    7  javac Worker.java 
+    8  vi Program1.java
+    9  vi Worker.java 
+   10  vi Program1.java
+   11  javac Program1.java
+   12  java Program 
+   13  vi Worker.java 
+   14  javac Program1.java
+   15  java Program 
+   16  cp Program1.java Program2.java
+   17  vi Program2.java 
+   18  javac Program2.java 
+   19  java Program 
+   20  cp Program2.java Program3.java
+   21  vi Program3.java 
+   22  javac Program3.java 
+   23  java Program 
+   24  vi Program3.java 
+   25* javap java.lang.Object1
+   26  vi Program3.java 
+   27  javac Program3.java 
+   28  vi Program3.java 
+   29  cd ..
+   30  mkdir AsyncParallelTest
+   31  cd AsyncParallelTest/
+   32  cp ../ThreadTest/Worker.java .
+   33  vi Worker.java 
+   34  vi Program1.java
+   35  javac Program1.java
+   36  java Program 5
+   37  java Program 20
+   38  vi Program1.java
+   39  javac Program1.java
+   40  java Program 20
+   41  history >cmd20-10-morning.txt
