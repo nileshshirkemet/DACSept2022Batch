@@ -1,0 +1,41 @@
+    1  clear
+    2  pwd
+    3  mkdir Communication
+    4  cd Communication/
+    5  mkdir SocketTest
+    6  cd SocketTest/
+    7  cp ../../Basics/FileStreamTest/Transformer.java .
+    8  javac Transformer.java 
+    9  vi Server.java
+   10  javac Server.java
+   11  vi Server.java
+   12  javac Server.java
+   13  ls
+   14  ll
+   15  java Server 
+   16  ll
+   17  java Server 
+   18  vi Server.java
+   19  javac Server.java
+   20  ll
+   21  java Server 
+   22  vi Server.java
+   23  javac Server.java
+   24  vi Client.java
+   25  javac Client.java 
+   26  vi Program.java
+   27  javac Program.java
+   28  java Program 
+   29  java Program &
+   30  ps
+   31  java Program monday
+   32  java Program NLMGBZ
+   33  kill 1396
+   34  java Program friday
+   35  java Program &
+   36  java Program friday
+   37  pkill -ef Program
+   38  java Program friday
+   39  vi Program.java
+   40  vi Client.java
+   41  history >cmd21-10-evening.txt
