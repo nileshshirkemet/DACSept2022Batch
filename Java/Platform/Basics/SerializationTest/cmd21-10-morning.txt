@@ -1,0 +1,39 @@
+    1  cd Java/Platform/Basics/
+    2  mkdir SerializationTest
+    3  cd SerializationTest/
+    4  javap java.io.Serializable
+    5  mkdir src
+    6  vi src/Visitor.java
+    7  javac -d . src/Visitor.java 
+    8  vi src/Site.java
+    9  vi src/Visitor.java
+   10  vi src/Site.java
+   11  javac -d . src/Site.java
+   12  vi src/Site.java
+   13  vi src/Visitor.java 
+   14  javac -d . src/*.java
+   15  vi src/SiteStore.java
+   16  javap java.io.ObjectOutputStream
+   17  javap java.io.ObjectInputStream
+   18  vi src/SiteStore.java
+   19  javac -d . src/SiteStore.java
+   20  vi src/SiteStore.java
+   21  javac -d . src/SiteStore.java
+   22  vi Program.java
+   23  javac Program.java
+   24  java Program Jack
+   25  java Program Jill
+   26  java Program John
+   27  java Program
+   28  java Program Jill
+   29  java Program
+   30  ls
+   31  vi Program.java
+   32  vi src/Visitor.java 
+   33  vi src/Site.java 
+   34  javap java.util.stream.Stream
+   35  vi src/Site.java 
+   36  vi src/Visitor.java 
+   37  vi src/Site.java 
+   38  vi src/SiteStore.java 
+   39  history >cmd21-10-morning.txt
