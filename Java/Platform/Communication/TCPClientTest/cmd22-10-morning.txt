@@ -1,0 +1,43 @@
+    1  cd Java/Platform/Communication/
+    2  ls
+    3  mkdir TCPServerTest
+    4  cd TCPServerTest/
+    5  wget iitdac.met.edu/shared/java/store.xml
+    6  vi store.xml 
+    7  vi Shop.java
+    8  vi store.xml 
+    9  vi Shop.java
+   10  javac Shop.java 
+   11  vi Shop.java
+   12  javac Shop.java 
+   13  vi Program1.java
+   14  javac Program1.java
+   15  java Program &
+   16  java Program
+   17  kill 188
+   18  java Program &
+   19  telnet 127.0.0.1 4010
+   20  pkill -ef Program
+   21  vi Program1.java 
+   22  javac Program1.java
+   23  java Program &
+   24  telnet 127.0.0.1 4010
+   25  pkill -ef Program
+   26  cp Program1.java Program2.java
+   27  vi Program2.java 
+   28  javac Program2.java 
+   29  java Program &
+   30  telnet 127.0.0.1 4010
+   31  ip show
+   32  cd ..
+   33  mkdir TCPClientTest
+   34  cd TCPClientTest/
+   35  vi ItemInfo.java
+   36  javac ItemInfo.java
+   37  vi Program.java
+   38  javac Program.java
+   39  java Program cpu 3 localhost
+   40  java Program printer 1 localhost
+   41  java Program mouse 600 localhost
+   42  vi Program.java
+   43  history >cmd22-10-morning.txt
