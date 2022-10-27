@@ -1,0 +1,19 @@
+    1  ps
+    2  cd Platform/Communication/HTTPClientTest/
+    3  java Server &
+    4  vi Program.java
+    5  javac Program.java
+    6  java Program localhost ssd 4
+    7  java Program localhost printer 2
+    8  java Program localhost mouse 600
+    9  vi Program.java
+   10  kill 576
+   11  java Program localhost ssd 4
+   12  ps
+   13  java Program iitdac.met.edu cpu 4
+   14  ping iitdac.met.edu
+   15  java Program 192.168.4.161 cpu 4
+   16  vi Program.java
+   17  cd ../..
+   18  ls
+   19  history > cmd27-10-evening.txt 
