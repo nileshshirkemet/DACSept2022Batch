@@ -1,0 +1,18 @@
+    1  ls
+    2  cd Platform/Communication/
+    3  ls
+    4  mkdir HTTPClientTest
+    5  cd HTTPClientTest/
+    6  cp ../TCPServerTest/Shop.java .
+    7  cp ../TCPServerTest/store.xml .
+    8  cp ../TCPClientTest/ItemInfo.java 
+    9  cp ../TCPClientTest/ItemInfo.java .
+   10  vi Server.java
+   11  javac Server.java
+   12  javap com.sun.net.httpserver.HttpServer
+   13  javac Server.java
+   14  vi Server.java
+   15  javac Server.java
+   16  java Server &
+   17  vi Server.java
+   18  history >cmd27-10-morning.txt
