@@ -1,0 +1,71 @@
+    1  cleqar
+    2  clear
+    3  javap java.sql.Connection
+    4  cp -r ParamSQLTest/ StoredProcTest
+    5  cd StoredProcTest/
+    6  export CLASSPATH=../jars/*:.
+    7  vi Program.java 
+    8  javac Program.java 
+    9  java Program CU103 102 20
+   10  java Program CU105 103 18
+   11  java Program CU104 103 18
+   12  vi Program.java 
+   13  cd ..
+   14  cd ParamSQLTest/
+   15  vi Program.java 
+   16  cd ../SimpleSQLTest/
+   17  vi Program.java 
+   18  cd ..
+   19  mkdir JPAXmlMappingTest
+   20  cd JPAXmlMappingTest/
+   21  mkdir META-INF
+   22  cd META-INF/
+   23  wget iitdac.met.edu/shared/java/META-INF/persistence.xml
+   24  wget iitdac.met.edu/shared/java/META-INF/orm.xml
+   25  ls
+   26  cd ..
+   27  mkdir
+   28  mkdir src
+   29  vi src/
+   30  vi src/OrderEntity.java
+   31  javac -d . src/OrderEntity.java 
+   32  vi src/OrderEntity.java
+   33  javac -d . src/OrderEntity.java 
+   34  vi src/ProductEntity.java
+   35  javac -d . src/ProductEntity.java 
+   36  vi META-INF/orm.xml 
+   37  vi META-INF/persistence.xml 
+   38  cd ../SimpleSQLTest/
+   39  vi Program.java 
+   40  cd ../ParamSQLTest/
+   41  vi Program.java 
+   42  javac Program.java 
+   43  java Program CU301 302 3
+   44  cd ../JPAXmlMappingTest/
+   45  vi META-INF/persistence.xml 
+   46  vi Program.java
+   47  javac Program.java
+   48  unset CLASSPATH
+   49  javac Program.java
+   50  export CLASSPATH=../jars/*:.
+   51  javac Program.java
+   52  java Program 
+   53  vi Program.java
+   54  javc Program.java
+   55  javac Program.java
+   56  javc Program.java
+   57  vi Program.java
+   58  javc Program.java
+   59  javac Program.java
+   60  java Program 
+   61  java Program 301
+   62  java Program 302
+   63  java Program 303
+   64  java Program 304
+   65  java Program 305
+   66  vi Program.java
+   67  javac Program.java
+   68  java Program 302
+   69  cd ..
+   70  history >cmd28-10-morning.txt 
+   71  history >cmd29-10-evening.txt 
