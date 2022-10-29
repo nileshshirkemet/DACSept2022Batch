@@ -1,0 +1,39 @@
+    1  pwd
+    2  clear
+    3  cd ServletTest/
+    4  ../glassfish6/bin/asadmin start-domain
+    5  export CLASSPATH=../glassfish6/glassfish/lib/javaee.jar:.
+    6  ls
+    7  cp BasicWebApp1/welcome.html BasicWebApp1/formpost.html
+    8  vi BasicWebApp1/formpost.html 
+    9  vi src/CountingServlet.java
+   10  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   11  touch BasicWebApp1/.reload 
+   12  vi src/CountingServlet.java
+   13  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   14  touch BasicWebApp1/.reload 
+   15  vi src/CountingServlet.java
+   16  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   17  touch BasicWebApp1/.reload 
+   18  vi src/CountingServlet.java
+   19  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   20  touch BasicWebApp1/.reload 
+   21  vi src/CountingServlet.java
+   22  vi src/PausingFilter.java
+   23  javap jakarta.servlet.Filter
+   24  vi src/PausingFilter.java
+   25  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   26  touch BasicWebApp1/.reload 
+   27  vi src/PausingFilter.java
+   28  cd ..
+   29  mkdir JSPTest
+   30  cd JSPTest/
+   31  mkdir -p BasicWebApp2/WEB-INF/classes
+   32  cp ../ServletTest/BasicWebApp1/WEB-INF/web.xml BasicWebApp2/WEB-INF/
+   33  vi BasicWebApp2/WEB-INF/web.xml 
+   34  ../glassfish6/bin/asadmin deploy BasicWebApp2
+   35  vi BasicWebApp2/welcome.jsp
+   36  ../glassfish6/bin/asadmin stop-domain
+   37  ls
+   38  cd ..
+   39  history >cmd29-10-evening.txt 
