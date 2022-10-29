@@ -1,0 +1,68 @@
+    1  cd Java/Platform/Database/
+    2  cp -r JPAXmlMappingTest/ JPAAnnotationsTest
+    3  cd JPAAnnotationsTest/
+    4  export CLASSPATH=../jars/*:.
+    5  rm META-INF/orm.xml 
+    6  vi META-INF/persistence.xml 
+    7  vi src/OrderEntity.java 
+    8  vi src/ProductEntity.java 
+    9  vi src/OrderEntity.java 
+   10  vi src/ProductEntity.java 
+   11  javac -d . src/*.java
+   12  javac Program.java 
+   13  vi Program.java 
+   14  javac Program.java 
+   15  java Program 
+   16  java Program 302
+   17  java Program 305
+   18  vi Program.java 
+   19  cd ../..
+   20  mkdir Web
+   21  cd Web/
+   22  wget iitdac.met.edu/shared/java/gf.tar.gz
+   23  tar xf gf.tar.gz 
+   24  rm gf.tar.gz 
+   25  ls
+   26  mkdir ServletTest
+   27  cd ServletTest/
+   28  ../glassfish6/bin/asadmin start-domain
+   29  ../glassfish6/bin/asadmin stop-domain
+   30  ../glassfish6/bin/asadmin start-domain
+   31  mkdir BasicWebApp1
+   32  mkdir BasicWebApp1/WEB-INF
+   33  mkdir BasicWebApp1/WEB-INF/classes
+   34  cd BasicWebApp1/WEB-INF/
+   35  wget iitdac.met.edu/shared/java/WEB-INF/web.xml
+   36  cd ..
+   37  ls
+   38  cd //
+   39  cd ..
+   40  ls
+   41  cd home/cdac/Java/Platform/Web/ServletTest/
+   42  ls
+   43  mkdir src
+   44  vi BasicWebApp1/welcome.html
+   45  ../glassfish6/bin/asadmin deploy BasicWebApp1
+   46  vi BasicWebApp1/WEB-INF/web.xml 
+   47  ../glassfish6/bin/asadmin undeploy BasicWebApp1
+   48  ../glassfish6/bin/asadmin deploy BasicWebApp1
+   49  export CLASSPATH=../glassfish6/glassfish/lib/javaee.jar:.
+   50  vi src/GreetingServlet.java
+   51  javap jakarta.servlet.Servlet
+   52  vi src/GreetingServlet.java
+   53  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   54  vi src/GreetingServlet.java
+   55  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   56  vi src/GreetingServlet.java
+   57  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   58  vi BasicWebApp1/WEB-INF/web.xml 
+   59  touch BasicWebApp1/.reload
+   60  vi src/GreetingServlet.java
+   61  javac -d BasicWebApp1/WEB-INF/classes/ src/*.java
+   62  touch BasicWebApp1/.reload
+   63  vi src/GreetingServlet.java
+   64  vi BasicWebApp1/WEB-INF/web.xml 
+   65  ../glassfish6/bin/asadmin stop-domain
+   66  ls
+   67  cd ..
+   68  history >cmd29-10-morning.txt
