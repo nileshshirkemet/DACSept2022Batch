@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+
+	<tlib-version>1.0</tlib-version>
+	<short-name>my</short-name>
+	<uri>http://java.met.edu/basicwebapp</uri>
+
+	<tag>
+		<name>clock</name>
+		<tag-class>basic.web.app.ClockTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>format</name>
+			<required>false</required>
+		</attribute>
+  	</tag>
+
+	<tag>
+		<name>lotto</name>
+		<tag-class>basic.web.app.LottoTag</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>digitCount</name>
+			<required>false</required>
+		</attribute>
+		<attribute>
+			<name>digitVar</name>
+			<required>true</required>
+		</attribute>
+  	</tag>
+
+</taglib>
+
