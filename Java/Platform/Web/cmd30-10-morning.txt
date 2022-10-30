@@ -1,0 +1,38 @@
+    1  clear
+    2  cd ..
+    3  cd JSPTest/
+    4  ../glassfish6/bin/asadmin start-domain
+    5  export CLASSPATH=../glassfish6/glassfish/lib/javaee.jar:.
+    6  ls
+    7  vi BasicWebApp2/welcome.jsp 
+    8  ls
+    9  mkdir src
+   10  vi src/CounterBean.java
+   11  javac -d BasicWebApp2/WEB-INF/classes/ src/*.java
+   12  vi BasicWebApp2/beandemo.jsp
+   13  touch BasicWebApp2/.reload
+   14  vi BasicWebApp2/beandemo.jsp
+   15  vi src/GreeterBean.java
+   16  javac -d BasicWebApp2/WEB-INF/classes/ src/*.java
+   17  touch BasicWebApp2/.reload
+   18  vi BasicWebApp2/beandemo.jsp 
+   19  javap jakarta.servlet.jsp.tagext.SimpleTag
+   20  vi src/ClockTag.java
+   21  javac -d BasicWebApp2/WEB-INF/classes/ src/*.java
+   22  vi src/ClockTag.java
+   23  javac -d BasicWebApp2/WEB-INF/classes/ src/*.java
+   24  wget -P BasicWebApp2/WEB-INF/ iitdac.met.edu/shared/java/WEB-INF/taglib.tld
+   25  vi BasicWebApp2/WEB-INF/taglib.tld 
+   26  touch BasicWebApp2/.reload 
+   27  vi BasicWebApp2/tagdemo.jsp
+   28  vi src/LottoTag.java
+   29  javac -d BasicWebApp2/WEB-INF/classes/ src/*.java
+   30  vi BasicWebApp2/WEB-INF/taglib.tld 
+   31  touch BasicWebApp2/.reload 
+   32  vi BasicWebApp2/tagdemo.jsp 
+   33  vi src/LottoTag.java
+   34  vi BasicWebApp2/tagdemo.jsp 
+   35  vi src/LottoTag.java
+   36  vi BasicWebApp2/WEB-INF/taglib.tld 
+   37  cd ..
+   38  history >cmd30-10-morning.txt
