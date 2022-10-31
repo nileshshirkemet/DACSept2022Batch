@@ -1,0 +1,49 @@
+    1  clear
+    2  cd ..
+    3  mkdir RMIServerTest
+    4  cd RMIServerTest/
+    5  export CLASSPATH=../../Database/jars/*:.
+    6  cp -r ../../Database/JPAXmlMappingTest/META-INF/ .
+    7  mkdir src
+    8  cp ../../Database/JPAXmlMappingTest/src/OrderEntity.java src/
+    9  vi src/OrderEntity.java 
+   10  vi META-INF/orm.xml 
+   11  vi META-INF/persistence.xml 
+   12  vi src/CounterEntity.java
+   13  javac -d . src/*.java
+   14  vi src/CounterEntity.java
+   15  javac -d . src/*.java
+   16  vi META-INF/persistence.xml 
+   17  vi src/OrderManager.java
+   18  javac -d . src/*.java
+   19  vi src/OrderManagerService.java
+   20  javap javax.persistence.EntityManager
+   21  vi src/OrderManagerService.java
+   22  vi ../../Database/JPAXmlMappingTest/Program.java 
+   23  vi src/OrderManagerService.java
+   24  javac -d . src/*.java
+   25  vi src/OrderManagerService.java
+   26  javac -d . src/*.java
+   27  java shopping.OrderManagerService &
+   28  kill 1043
+   29  java shopping.OrderManagerService &
+   30  vi Program.java
+   31  javac Program.java
+   32  java Program CU301 303 16
+   33  java Program CU301
+   34  java Program CU302 301 8
+   35  java Program CU302
+   36  java Program CU304 303 12
+   37  java Program CU303 303 12
+   38  java Program CU303
+   39  vi Program.java
+   40  ps
+   41  pkill -ef Program
+   42  ps
+   43  pkill -ef "java Program"
+   44  ps
+   45  kill 1068
+   46  java Program CU302 304 13
+   47  cd ..
+   48  ls
+   49  history >cmd31-10-evening.txt

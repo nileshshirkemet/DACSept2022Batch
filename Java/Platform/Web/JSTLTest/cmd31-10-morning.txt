@@ -1,0 +1,33 @@
+    1  ls
+    2  cd Java/Platform/Web/
+    3  ls
+    4  ./glassfish6/bin/asadmin start-domain
+    5  mkdir JSTLTest
+    6  cd JSTLTest/
+    7  export CLASSPATH=../glassfish6/glassfish/lib/javaee.jar:.
+    8  mkdir -p ClassicWebApp/WEB-INF/classes
+    9  cp ../JSPTest/BasicWebApp2/WEB-INF/web.xml ClassicWebApp/WEB-INF/
+   10  export CLASSPATH=../glassfish6/glassfish/lib/javaee.jar:../../Database/jars/*:.
+   11  mkdir src
+   12  vi src/DB.java
+   13  javac -d ClassicWebApp/WEB-INF/classes/ src/*.java
+   14  vi src/CustomerBean.java
+   15  javac -d ClassicWebApp/WEB-INF/classes/ src/*.java
+   16  vi src/CustomerBean.java
+   17  javac -d ClassicWebApp/WEB-INF/classes/ src/*.java
+   18  vi src/CustomerBean.java
+   19  javac -d ClassicWebApp/WEB-INF/classes/ src/*.java
+   20  vi src/CustomerBean.java
+   21  ../glassfish6/bin/asadmin deploy ClassicWebApp
+   22  vi ClassicWebApp/customer.jsp
+   23  vi ClassicWebApp/orders.jap
+   24  vi ClassicWebApp/orders.jsp
+   25  vi src/CustomerBean.java 
+   26  javac -d ClassicWebApp/WEB-INF/classes/ src/*.java
+   27  touch ClassicWebApp/.reload
+   28  vi src/CustomerBean.java 
+   29  vi ClassicWebApp/orders.jsp
+   30  vi ClassicWebApp/customer.jsp 
+   31  vi ClassicWebApp/orders.jsp
+   32  vi ClassicWebApp/customer.jsp 
+   33  history >cmd31-10-morning.txt
