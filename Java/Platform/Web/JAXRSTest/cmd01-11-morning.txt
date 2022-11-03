@@ -1,0 +1,44 @@
+ 1989  ls
+ 1990  cd ClassicWebApp/
+ 1991  ls
+ 1992  clear
+ 1993  ls
+ 1994  cd ..
+ 1995  ../glassfish6/bin/asadmin stop-domain
+ 1996  exit
+ 1997  exit
+ 1998  cd Java/Platform/Web/RMIServerTest/
+ 1999  ls
+ 2000  java -cp ../../Database/jars/* shopping.OrderManagerService &
+ 2001  java -cp ../../Database/jars/*:. shopping.OrderManagerService &
+ 2002  java Program CU303
+ 2003  java Program CU302
+ 2004  cd ..
+ 2005  mkdir JAXRSTest
+ 2006  cd JAXRSTest/
+ 2007  ../glassfish6/bin/asadmin start-domain
+ 2008  mkdir -p ModernWebApp/WEB-INF/classes
+ 2009  cp ../ServletTest/BasicWebApp1/WEB-INF/web.xml ModernWebApp/WEB-INF/
+ 2010  mkdir src
+ 2011  cp ../RMIServerTest/src/OrderEntity.java src/
+ 2012  cp ../RMIServerTest/src/OrderManager src/
+ 2013  cp ../RMIServerTest/src/OrderManager.java src/
+ 2014  vi src/OrderManager.java 
+ 2015  export CLASSPATH=../glassfish6/glassfish/lib/javaee.jar:.
+ 2016  vi ModernWebApp/WEB-INF/web.xml 
+ 2017  wget -P ModernWebApp/ iitdac.met.edu/shared/web/salesui.html
+ 2018  wget -P ModernWebApp/ iitdac.met.edu/shared/web/salesui.js
+ 2019  ls ModernWebApp/
+ 2020  ../glassfish6/bin/asadmin deploy ModernWebApp
+ 2021  vi src/OrderManagerAPI.java
+ 2022  javac -d ModernWebApp/WEB-INF/classes/ src/*.java
+ 2023  touch ModernWebApp/.reload
+ 2024  curl http://localhost:8080/ModernWebApp/api/orders/CU303
+ 2025  curl http://localhost:8080/ModernWebApp/api/orders/CU302
+ 2026  curl http://localhost:8080/ModernWebApp/api/orders/CU304
+ 2027  vi src/OrderManagerAPI.java
+ 2028  javac -d ModernWebApp/WEB-INF/classes/ src/*.java
+ 2029  touch ModernWebApp/.reload
+ 2030  curl -X POST -H 'Content-Type: application/json' -d '{"customerId":"CU302","productNo":303,"quantity":4}' http://localhost:8080/ModernWebApp/api/orders/
+ 2031  vi src/OrderManagerAPI.java
+ 2032  history >cmd01-11-morning.txt

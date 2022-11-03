@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ModernWebApp</title>
+    </head>
+    <body>
+        <h1>Welcome Sales Agent</h1>
+	    <hr/>
+        <form>
+            <p>
+                <b>Customer ID</b><br/>
+                <input type="text" id="customerIdInput" required="required"/>
+                <input type="button" id="invoiceButton" value="Invoice"/>
+            </p>
+            <p>
+                <b>Product No</b><br/>
+                <input type="number" id="productNoInput" required="required"/>
+            </p>
+            <p>
+                <b>Quantity</b><br/>
+                <input type="number" id="quantityInput" required="required"/>
+            </p>
+	    	<input type="button" id="orderButton" value="Order"/>
+        </form>
+        <p>
+            <span id="statusOutput"></span><br/>
+        </p>
+		<div id="ordersView" style="display:none">
+	    	<table border="1" id="ordersTable">
+				<thead>
+		    		<tr>
+						<th>Order Date</th>
+						<th>Product No</th>
+						<th>Quantity</th>
+		    		</tr>
+	      		</thead>
+				<tbody>
+				</tbody>
+	    	</table>
+		</div>
+        <script>
+
+            let customerIdInput = document.getElementById("customerIdInput");
+            let productNoInput = document.getElementById("productNoInput");
+            let quantityInput = document.getElementById("quantityInput");
+            let statusOutput = document.getElementById("statusOutput");
+	    	let ordersTable = document.getElementById("ordersTable");
+	    	let ordersView = document.getElementById("ordersView");
+
+	    	function clearOrders(){
+				ordersView.style.display = "none";
+				while(ordersTable.rows.length > 1) 
+					ordersTable.deleteRow(1);
+	    	}
+
+	    	document.getElementById("orderButton").onclick = async function(){
+	   			clearOrders();
+				statusOutput.innerText = await doPostOrder(customerIdInput.value, productNoInput.value, quantityInput.value);
+	    	};
+
+            document.getElementById("invoiceButton").onclick = async function(){
+				clearOrders();
+				let result = await doGetOrders(customerIdInput.value);
+				if(typeof result === 'string')
+		    		statusOutput.innerText = result;
+                else{
+                    statusOutput.innerText = "Orders of this Customer ";
+		    		for(const entry of result) {
+		    			let row = ordersTable.insertRow();
+		    			row.insertCell().innerText = entry.orderDate.slice(0, 10);
+		    			row.insertCell().innerText = entry.productNo;
+		    			row.insertCell().innerText = entry.quantity;
+		    		}
+		    		ordersView.style.display = "block";
+				}
+			};
+
+        </script>
+		<script src="salesui.js"></script>
+    </body>
+</html>
+
