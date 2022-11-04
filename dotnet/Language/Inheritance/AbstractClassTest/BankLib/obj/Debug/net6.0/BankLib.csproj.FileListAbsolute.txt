@@ -1,0 +1,12 @@
+D:\DotNet\Language\Inheritance\AbstractClassTest\BankLib\bin\Debug\net6.0\BankLib.deps.json
+D:\DotNet\Language\Inheritance\AbstractClassTest\BankLib\bin\Debug\net6.0\BankLib.dll
+D:\DotNet\Language\Inheritance\AbstractClassTest\BankLib\bin\Debug\net6.0\BankLib.pdb
+D:\DotNet\Language\Inheritance\AbstractClassTest\BankLib\obj\Debug\net6.0\BankLib.csproj.AssemblyReference.cache
+D:\DotNet\Language\Inheritance\AbstractClassTest\BankLib\obj\Debug\net6.0\BankLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet\Language\Inheritance\AbstractClassTest\BankLib\obj\Debug\net6.0\BankLib.AssemblyInfoInputs.cache
+D:\DotNet\Language\Inheritance\AbstractClassTest\BankLib\obj\Debug\net6.0\BankLib.AssemblyInfo.cs
+D:\DotNet\Language\Inheritance\AbstractClassTest\BankLib\obj\Debug\net6.0\BankLib.csproj.CoreCompileInputs.cache
+D:\DotNet\Language\Inheritance\AbstractClassTest\BankLib\obj\Debug\net6.0\BankLib.dll
+D:\DotNet\Language\Inheritance\AbstractClassTest\BankLib\obj\Debug\net6.0\refint\BankLib.dll
+D:\DotNet\Language\Inheritance\AbstractClassTest\BankLib\obj\Debug\net6.0\BankLib.pdb
+D:\DotNet\Language\Inheritance\AbstractClassTest\BankLib\obj\Debug\net6.0\ref\BankLib.dll
