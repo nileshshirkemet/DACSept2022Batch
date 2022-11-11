@@ -1,0 +1,12 @@
+D:\DotNet\Platform\Basics\SerializationTest\Tourism\bin\Release\net6.0\Tourism.deps.json
+D:\DotNet\Platform\Basics\SerializationTest\Tourism\bin\Release\net6.0\Tourism.dll
+D:\DotNet\Platform\Basics\SerializationTest\Tourism\bin\Release\net6.0\Tourism.pdb
+D:\DotNet\Platform\Basics\SerializationTest\Tourism\obj\Release\net6.0\Tourism.csproj.AssemblyReference.cache
+D:\DotNet\Platform\Basics\SerializationTest\Tourism\obj\Release\net6.0\Tourism.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet\Platform\Basics\SerializationTest\Tourism\obj\Release\net6.0\Tourism.AssemblyInfoInputs.cache
+D:\DotNet\Platform\Basics\SerializationTest\Tourism\obj\Release\net6.0\Tourism.AssemblyInfo.cs
+D:\DotNet\Platform\Basics\SerializationTest\Tourism\obj\Release\net6.0\Tourism.csproj.CoreCompileInputs.cache
+D:\DotNet\Platform\Basics\SerializationTest\Tourism\obj\Release\net6.0\Tourism.dll
+D:\DotNet\Platform\Basics\SerializationTest\Tourism\obj\Release\net6.0\refint\Tourism.dll
+D:\DotNet\Platform\Basics\SerializationTest\Tourism\obj\Release\net6.0\Tourism.pdb
+D:\DotNet\Platform\Basics\SerializationTest\Tourism\obj\Release\net6.0\ref\Tourism.dll

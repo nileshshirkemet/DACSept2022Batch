@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qUNEPxzD/LnyCSM3zICFFNXjnGS6rY8UbwQ9JtuNj8xjQUMdMnNw7dabbB9nWXjfQkfL6VRQDv4Cyd7bBS7Cgw==",
+  "success": true,
+  "projectFilePath": "D:\\DotNet\\Platform\\Basics\\SerializationTest\\DemoApp\\DemoApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\efaculty1\\.nuget\\packages\\met.tourism\\1.0.0\\met.tourism.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
