@@ -1,0 +1,15 @@
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\bin\Debug\net6.0\DemoApp.exe
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\bin\Debug\net6.0\DemoApp.deps.json
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\bin\Debug\net6.0\DemoApp.runtimeconfig.json
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\bin\Debug\net6.0\DemoApp.dll
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\bin\Debug\net6.0\DemoApp.pdb
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\obj\Debug\net6.0\DemoApp.csproj.AssemblyReference.cache
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\obj\Debug\net6.0\DemoApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\obj\Debug\net6.0\DemoApp.AssemblyInfoInputs.cache
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\obj\Debug\net6.0\DemoApp.AssemblyInfo.cs
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\obj\Debug\net6.0\DemoApp.csproj.CoreCompileInputs.cache
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\obj\Debug\net6.0\DemoApp.dll
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\obj\Debug\net6.0\refint\DemoApp.dll
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\obj\Debug\net6.0\DemoApp.pdb
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\obj\Debug\net6.0\DemoApp.genruntimeconfig.cache
+D:\DotNet\Platform\Communication\SocketTest\DemoApp\obj\Debug\net6.0\ref\DemoApp.dll
