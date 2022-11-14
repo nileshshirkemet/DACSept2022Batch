@@ -1,0 +1,9 @@
+<items>
+  <item key="cpu">price:19000,stock:50</item>
+  <item key="motherboard">price:8500,stock:65</item>
+  <item key="ddr">price:3500,stock:85</item>
+  <item key="ssd">price:4500,stock:30</item>
+  <item key="keyboard">price:900,stock:90</item>
+  <item key="mouse">price:550,stock:120</item>
+  <item key="monitor">price:8000,stock:15</item>
+</items>
