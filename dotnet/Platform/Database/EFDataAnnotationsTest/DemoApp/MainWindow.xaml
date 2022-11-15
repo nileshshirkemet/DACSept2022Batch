@@ -1,0 +1,34 @@
+﻿<Window x:Class="DemoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoApp"
+        mc:Ignorable="d"
+        Title="DemoApp" Height="340" Width="320">
+    <StackPanel>
+        <TextBlock Margin="10" FontSize="16" Text="Product Viewer"/>
+        <ComboBox Margin="10" DisplayMemberPath="Id" ItemsSource="{Binding Products}" SelectedItem="{Binding CurrentProduct}"/>
+        <Grid Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Margin="5" Grid.Row="0" Grid.Column="0" Text="Price:"/>
+            <TextBox Margin="5" Grid.Row="0" Grid.Column="1" IsReadOnly="True" Text="{Binding CurrentProduct.Price}"/>
+            <TextBlock Margin="5" Grid.Row="1" Grid.Column="0" Text="Stock:"/>
+            <TextBox Margin="5" Grid.Row="1" Grid.Column="1" IsReadOnly="True" Text="{Binding CurrentProduct.Stock}"/>
+        </Grid>
+        <DataGrid Margin="10" MinHeight="120" MaxHeight="120" HorizontalAlignment="Center" IsReadOnly="True" AutoGenerateColumns="False" ItemsSource="{Binding CurrentProduct.Orders}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="90" Header="Customer ID" Binding="{Binding CustomerId}"/>
+                <DataGridTextColumn Width="90" Header="Quantity" Binding="{Binding Quantity}"/>
+                <DataGridTextColumn Width="90" Header="Order Date" Binding="{Binding OrderDate, StringFormat={}{0:yyyy-MM-dd}}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</Window>
