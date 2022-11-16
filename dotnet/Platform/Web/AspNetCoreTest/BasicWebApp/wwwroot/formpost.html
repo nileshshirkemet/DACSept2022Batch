@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>BasicWebApp</title>
+        <script type="text/javascript">
+            var params = new URLSearchParams(window.location.search);
+            if(params.get("noname"))
+                alert("Please enter your name!");
+        </script>
+    </head>
+    <body>
+        <h1>Welcome Visitor</h1>
+        <form method="post" action="Count">
+            <b>Name: </b>
+            <input type="text" name="guest"/>
+            <input type="submit" value="Greet"/>
+        </form>
+    </body>
+</html>
