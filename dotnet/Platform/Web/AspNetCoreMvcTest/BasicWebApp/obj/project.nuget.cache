@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5pCg/rbo8LXFT9AAaPuzGJQGmFbN2A0G2M58uHE8DcKHcGVvq+JQFbptgsqaIOkdLGJF5quob/2RbiFzkcnlcw==",
+  "success": true,
+  "projectFilePath": "D:\\DotNet\\Platform\\Web\\AspNetCoreMvcTest\\BasicWebApp\\BasicWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\efaculty1\\.nuget\\packages\\met.tourism\\1.0.0\\met.tourism.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

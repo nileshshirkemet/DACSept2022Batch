@@ -1,0 +1,20 @@
+@page "/Greet/{id=Visitor}"
+@{
+    var user = (string)RouteData.Values["id"];
+}
+@inject BasicWebApp.Services.ICounter counter
+@addTagHelper *, BasicWebApp
+<html>
+    <head>
+        <title>BasicWebApp</title>
+    </head>
+    <body>
+        <h1>Welcome @user</h1>
+        <p>
+            <b>Number of Greetings: </b>@counter.CountNext(user)
+        </p>
+        <p>
+            <b>Current Time: </b><span time-display-format="HH:mm:ss"></span>
+        </p>
+    </body>
+</html>
