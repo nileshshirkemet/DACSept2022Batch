@@ -1,0 +1,31 @@
+@model Tourism.Site
+<html>
+    <head>
+        <title>BasicWebApp</title>
+    </head>
+    <body>
+        <h1>@Model.Id Visitors</h1>
+        <table border="1">
+            <tr>
+                <th>Visitor Name</th>
+                <th>Visit Count</th>
+                <th>Last Visit</th>
+            </tr>
+            @foreach (var visitor in Model.Visitors)
+            {
+                <tr>
+                    <td>@visitor.Id</td>
+                    <td>@visitor.VisitCount</td>
+                    <td>@visitor.LastVisit</td>
+                </tr>
+            }
+        </table>
+        <p>
+            <form method="post" action="/Tour/Register">
+                <b>Name:</b>
+                <input type="text" name="person" required="required"/>
+                <input type="submit" value="Register"/>
+            </form>
+        </p>
+    </body>
+</html>
