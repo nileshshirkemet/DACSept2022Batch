@@ -1,0 +1,30 @@
+@page
+@model ClassicWebApp.Pages.DetailModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<html>
+    <head>
+        <title>ClassicWebApp</title>
+    </head>
+    <body>
+        <h1>Welcome Customer @Model.Current.Id</h1>
+        <h3>Your Orders</h3>
+        <table border="1">
+            <tr>
+                <th>Product ID</th>
+                <th>Quantity</th>
+                <th>Order Date</th>
+            </tr>
+            @foreach (var item in Model.Current.Orders)
+            {
+                <tr>
+                    <td>@item.ProductId</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.OrderDate.ToString("yyyy-MMM-dd")</td>
+                </tr>
+            }
+        </table>
+        <p>
+            <a asp-page-handler="logout">Logout</a>
+        </p>
+    </body>
+</html>

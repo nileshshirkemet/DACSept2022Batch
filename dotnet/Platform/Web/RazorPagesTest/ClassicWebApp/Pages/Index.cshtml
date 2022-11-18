@@ -1,0 +1,25 @@
+@page
+@model ClassicWebApp.Pages.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<html>
+    <head>
+        <title>ClassicWebApp</title>
+    </head>
+    <body>
+        <h1>Welcome Customer</h1>
+        <form method="post">
+            <p>
+                <b>Customer ID</b><br/>
+                <input type="text" required="required" asp-for="Current.Id"/>
+            </p>
+            <p>
+                <b>Password</b><br/>
+                <input type="password" required="required" asp-for="Current.Password"/>
+            </p>
+            <p>
+                <input type="submit" value="Login"/>
+            </p>
+        </form>
+        <div asp-validation-summary="All"></div>
+    </body>
+</html>
