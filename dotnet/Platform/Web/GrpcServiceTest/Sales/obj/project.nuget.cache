@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "34aUnBvMyd7CF8FzUKtTNBbHTRmoZD9Ro6e6lWoK651MyEp62E/NEfA4D8Sq8LPWHDOlQIwMA+Nzm7UEaLBsww==",
+  "success": true,
+  "projectFilePath": "D:\\DotNet\\Platform\\Web\\GrpcServiceTest\\Sales\\Sales.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\efaculty1\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\grpc\\2.46.5\\grpc.2.46.5.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\grpc.core\\2.46.5\\grpc.core.2.46.5.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\grpc.core.api\\2.46.5\\grpc.core.api.2.46.5.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\grpc.tools\\2.50.0\\grpc.tools.2.50.0.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

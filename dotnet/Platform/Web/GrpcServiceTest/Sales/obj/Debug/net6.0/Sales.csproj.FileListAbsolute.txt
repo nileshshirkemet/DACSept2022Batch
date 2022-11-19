@@ -1,0 +1,12 @@
+D:\DotNet\Platform\Web\GrpcServiceTest\Sales\bin\Debug\net6.0\Sales.deps.json
+D:\DotNet\Platform\Web\GrpcServiceTest\Sales\bin\Debug\net6.0\Sales.dll
+D:\DotNet\Platform\Web\GrpcServiceTest\Sales\bin\Debug\net6.0\Sales.pdb
+D:\DotNet\Platform\Web\GrpcServiceTest\Sales\obj\Debug\net6.0\Sales.csproj.AssemblyReference.cache
+D:\DotNet\Platform\Web\GrpcServiceTest\Sales\obj\Debug\net6.0\Sales.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet\Platform\Web\GrpcServiceTest\Sales\obj\Debug\net6.0\Sales.AssemblyInfoInputs.cache
+D:\DotNet\Platform\Web\GrpcServiceTest\Sales\obj\Debug\net6.0\Sales.AssemblyInfo.cs
+D:\DotNet\Platform\Web\GrpcServiceTest\Sales\obj\Debug\net6.0\Sales.csproj.CoreCompileInputs.cache
+D:\DotNet\Platform\Web\GrpcServiceTest\Sales\obj\Debug\net6.0\Sales.dll
+D:\DotNet\Platform\Web\GrpcServiceTest\Sales\obj\Debug\net6.0\refint\Sales.dll
+D:\DotNet\Platform\Web\GrpcServiceTest\Sales\obj\Debug\net6.0\Sales.pdb
+D:\DotNet\Platform\Web\GrpcServiceTest\Sales\obj\Debug\net6.0\ref\Sales.dll
