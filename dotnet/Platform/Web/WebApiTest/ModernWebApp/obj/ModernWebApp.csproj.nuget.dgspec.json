@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DotNet\\Platform\\Web\\WebApiTest\\ModernWebApp\\ModernWebApp.csproj": {}
+  },
+  "projects": {
+    "D:\\DotNet\\Platform\\Web\\GrpcServiceTest\\Sales\\Sales.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNet\\Platform\\Web\\GrpcServiceTest\\Sales\\Sales.csproj",
+        "projectName": "Sales",
+        "projectPath": "D:\\DotNet\\Platform\\Web\\GrpcServiceTest\\Sales\\Sales.csproj",
+        "packagesPath": "C:\\Users\\efaculty1\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNet\\Platform\\Web\\GrpcServiceTest\\Sales\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\efaculty1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.21.9, )"
+            },
+            "Grpc": {
+              "target": "Package",
+              "version": "[2.46.5, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.50.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DotNet\\Platform\\Web\\WebApiTest\\ModernWebApp\\ModernWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNet\\Platform\\Web\\WebApiTest\\ModernWebApp\\ModernWebApp.csproj",
+        "projectName": "ModernWebApp",
+        "projectPath": "D:\\DotNet\\Platform\\Web\\WebApiTest\\ModernWebApp\\ModernWebApp.csproj",
+        "packagesPath": "C:\\Users\\efaculty1\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNet\\Platform\\Web\\WebApiTest\\ModernWebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\efaculty1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\DotNet\\Platform\\Web\\GrpcServiceTest\\Sales\\Sales.csproj": {
+                "projectPath": "D:\\DotNet\\Platform\\Web\\GrpcServiceTest\\Sales\\Sales.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Grpc.Net.ClientFactory": {
+              "target": "Package",
+              "version": "[2.50.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

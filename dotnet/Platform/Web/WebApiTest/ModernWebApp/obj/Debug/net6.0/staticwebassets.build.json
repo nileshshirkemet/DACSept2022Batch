@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "GWEv3HZCAS3TOn00YmVnNxoLA5Ymq0IorM2Z6bCf12I=",
+  "Source": "ModernWebApp",
+  "BasePath": "_content/ModernWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ModernWebApp\\wwwroot",
+      "Source": "ModernWebApp",
+      "ContentRoot": "D:\\DotNet\\Platform\\Web\\WebApiTest\\ModernWebApp\\wwwroot\\",
+      "BasePath": "_content/ModernWebApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\DotNet\\Platform\\Web\\WebApiTest\\ModernWebApp\\wwwroot\\salesui.html",
+      "SourceId": "ModernWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DotNet\\Platform\\Web\\WebApiTest\\ModernWebApp\\wwwroot\\",
+      "BasePath": "_content/ModernWebApp",
+      "RelativePath": "salesui.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\salesui.html"
+    },
+    {
+      "Identity": "D:\\DotNet\\Platform\\Web\\WebApiTest\\ModernWebApp\\wwwroot\\salesui.js",
+      "SourceId": "ModernWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DotNet\\Platform\\Web\\WebApiTest\\ModernWebApp\\wwwroot\\",
+      "BasePath": "_content/ModernWebApp",
+      "RelativePath": "salesui.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\salesui.js"
+    }
+  ]
+}

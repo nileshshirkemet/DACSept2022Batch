@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "rMFSyFZVhfqQhWw8x1jaTB5IQkbAa9ByyZeK+9aprlewXs3+yr/yHoIuZUpdKOn4/U+pzgsjlMQUqYJT/FVqdw==",
+  "success": true,
+  "projectFilePath": "D:\\DotNet\\Platform\\Web\\WebApiTest\\ModernWebApp\\ModernWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\efaculty1\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\grpc\\2.46.5\\grpc.2.46.5.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\grpc.core\\2.46.5\\grpc.core.2.46.5.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\grpc.core.api\\2.50.0\\grpc.core.api.2.50.0.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\grpc.net.client\\2.50.0\\grpc.net.client.2.50.0.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\grpc.net.clientfactory\\2.50.0\\grpc.net.clientfactory.2.50.0.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\grpc.net.common\\2.50.0\\grpc.net.common.2.50.0.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\microsoft.extensions.configuration\\3.0.3\\microsoft.extensions.configuration.3.0.3.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.3\\microsoft.extensions.configuration.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.0.3\\microsoft.extensions.configuration.binder.3.0.3.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.0.3\\microsoft.extensions.dependencyinjection.3.0.3.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.3\\microsoft.extensions.dependencyinjection.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\microsoft.extensions.http\\3.0.3\\microsoft.extensions.http.3.0.3.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\microsoft.extensions.logging\\3.0.3\\microsoft.extensions.logging.3.0.3.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\microsoft.extensions.options\\3.0.3\\microsoft.extensions.options.3.0.3.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.3\\microsoft.extensions.primitives.3.0.3.nupkg.sha512",
+    "C:\\Users\\efaculty1\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
