@@ -1,0 +1,17 @@
+h2{
+    color: rgb(100,0,0)
+}
+.btn{
+    background-color: rgb(0, 132, 255);
+}
+
+.categories a{
+    color: black;
+}
+.categories a:hover{
+    color: red;
+}
+
+body{
+    background-color: rgb(226, 255, 255);
+}

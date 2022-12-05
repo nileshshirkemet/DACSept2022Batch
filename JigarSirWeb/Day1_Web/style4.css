@@ -1,0 +1,55 @@
+/* universal selector */
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-2{
+    width: 16.66%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    border: 1px solid red; 
+    border-radius: 30px;
+
+}
+.col-3{
+    margin-left: 5px;
+    margin-right: 5px;
+ 
+}
+
+a{
+    color: rgb(236, 6, 6);
+    text-decoration: none;
+}
