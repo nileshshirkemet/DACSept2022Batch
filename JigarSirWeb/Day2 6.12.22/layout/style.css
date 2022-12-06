@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap'); */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Cedarville Cursive', cursive; */
+}
+
+.slider
+{
+    padding: 20px 0;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+footer a{
+    color: white !important;
+}
+
+@media only screen and (max-width:575px)
+{
+    /* body
+    {
+        border: solid;
+    } */
+    .logo
+    {
+        /* margin-top: 20px; */
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        /* border: solid; */
+    }
+    .top-menu
+    {
+        justify-content: center !important;
+    }
+}
+

@@ -1,0 +1,26 @@
+<script>
+
+var product={
+    name:"nike",
+    price:"1200",
+    path:"https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/4/g/z/s-tsrt-catalog-03-kajaru-original-imaghegnwagzcxce.jpeg?q=70"
+};
+console.log(product);
+
+document.write(`
+<div>
+    <img src="${product.path}"/>
+    <h2>${product.price}</h2>
+    <p>${product.name}</p>
+    </div>
+`)
+</script>
+<style>
+    div{
+        width: 300px;
+        border: solid;
+    }
+    img{
+        width:100%;
+    }
+</style>

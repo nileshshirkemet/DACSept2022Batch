@@ -1,0 +1,10 @@
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.col-4{
+    width: 33.33%;
+}

@@ -1,0 +1,26 @@
+<script>
+    var a=20;
+    var b=30;
+    console.log(a+b);
+    var c='40';
+    console.log(b+c);
+    console.log(b*c);
+    console.log(b/c);
+    console.log(b-c);
+    console.log(10%2);
+
+    console.log(5**3);
+
+    //P x R x (1+R)^N / [(1+R)^N-1]
+
+    var p=2500000;
+    var r=8.20;
+    var n=20;
+    r=r/12/100;
+    n=n*12;
+    var emi=p*r*((1+r)**n)/((1+r)**n-1)
+    console.log(emi);
+console.log(Math);
+
+console.log(Math.round(emi));
+</script>
