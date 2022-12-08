@@ -1,0 +1,32 @@
+
+<!-- email id revision -->
+<!-- /password regular Expression -->
+<input type="text" id="x1" class="x2" /> <br>
+<input type="text" id="x1" class="x2"/> <br>
+<input type="text" id="x1" class="x2" /> <br>
+
+<button id=btn >Enter</button>
+
+<script>
+    document.getElementById('btn').onclick=function(){
+        var rec = document.getElementById('x1');
+        console.log(rec);
+
+        var rec = document.getElementsByClassName('x2');
+        console.log(rec);
+
+        console.log(rec[0].value);
+        console.log(rec[1].value);
+        console.log(rec[2].value);
+
+        var regexp = /^([a-zA-Z0-9]([a-zA-Z0-9_\.]+)?[a-zA-Z0-9])@([a-zA-Z0-9]([a-zA-Z0-9\-]+)?[a-zA-Z0-9])\.([a-zA-Z]{2,})(\.[a-zA-Z]{2,})?$/
+
+        console.log(regexp.test(rec[0].value));
+
+        //Hello@#123
+        var reg_pass = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#\-]).{4,12}$/;
+
+        console.log(reg_pass.test(rec[1].value));
+
+    }
+</script>
