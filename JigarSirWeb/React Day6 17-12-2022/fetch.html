@@ -1,0 +1,15 @@
+<script>
+	// var ans = fetch('http://localhost:9000/api/users/');
+
+	// console.log(ans);
+
+	// fetch('http://localhost:9000/api/users/')
+	// .then(res=>{
+	// 	console.log(res.json());
+	// })
+
+	fetch('http://localhost:9000/api/users/')
+	.then(res=>res.json())
+	.then(val=>console.log(val))
+	.catch(err=>console.log(err))
+</script>

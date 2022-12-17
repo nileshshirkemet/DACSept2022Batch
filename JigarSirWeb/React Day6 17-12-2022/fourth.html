@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script> 
+    
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <!-- Load our React component. -->
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+ 
+ 
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        // console.log(React);
+        // console.log(ReactDOM);
+
+        var record= ReactDOM.createRoot(document.getElementById("root"))
+
+        var product= (
+            <div>
+            <img src="https://rukminim1.flixcart.com/image/200/200/ktop5e80/tablet/x/9/o/mk2k3hn-a-apple-original-imag6yy7xjjugz4w.jpeg?q=70" alt="" /> 
+            <h1>2000</h1>
+            
+            </div>
+        )
+
+        record.render(product)
+    </script>
+</body>
+</html>

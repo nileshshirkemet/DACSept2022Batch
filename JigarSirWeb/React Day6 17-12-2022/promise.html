@@ -1,0 +1,16 @@
+<script>
+	var rec = new Promise((res,rej)=>{
+		// console.log(typeof res);
+		// console.log(typeof rej);
+		// res([10,20,30])
+
+		rej("API DATA FAILED")
+	});
+	console.log(rec);
+
+	rec.then((result)=>{
+		console.log(result);
+	}).catch((err)=>{
+		console.log(err);
+	});
+</script>
