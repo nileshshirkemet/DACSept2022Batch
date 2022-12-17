@@ -1,0 +1,15 @@
+server creation
+
+file read
+
+custom modules in node js
+
+creating 3 page website using node js
+------------------------------------------------------
+express framework based on mvc
+
+creation of routes
+
+db connection with mongodb
+
+creation of API (CRUD)

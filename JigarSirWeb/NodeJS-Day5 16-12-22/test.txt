@@ -1,0 +1,15 @@
+db.users.insert([{name:"Sanghadip",age:25},{name:"Shubham",age:27}])
+
+db.users.find({$and:[{name:"MBA"},{age:20}]})
+
+db.users.update({name:"MBA"},{$set:{age:30}})
+
+db.users.insert({})
+db.users.insert([{},{},{}])
+db.users.find({})
+db.users.find({name:"MBA"})
+db.users.remove({})
+db.users.remove({name:"MBA"})
+db.users.update({name:"MBA"},{$set:{age:30}})
+
+Foreign key

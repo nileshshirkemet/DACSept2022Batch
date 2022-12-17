@@ -1,0 +1,184 @@
+STEP1:
+
+https://www.mongodb.com/try/download/community
+
+4.4 download
+
+STEP2 :
+
+check:
+C:\Program Files\MongoDB\Server\4.2\bin
+
+STEp3:
+
+c:/data/db
+
+
+step4 :
+run mongod.exe from  C:\Program Files\MongoDB\Server\4.2\bin folder ( run ur server , ensure ur c:/data/db is created)
+
+step5 :
+
+run mongo.exe C:\Program Files\MongoDB\Server\4.2\bin
+
+
+--------------------------------------------
+RUN ALLL BELOW COMMANDS IN mongo.exe:
+----------------------------------------
+
+
+Check Database List ?
+Ans : show dbs
+
+create db ?
+Ans : use swatiproject
+
+check current database?
+db
+
+check tables or collections or worksheet?
+show collections
+
+create collection in mongodb ??
+db.createCollection("users")
+
+how to insert records in mongodbd ?
+
+db.users.insert({
+    name:"akshay",
+    age:20,
+    place:"mumbai"
+});
+
+db.users.insert({
+    name:"akshay",
+    age:10,
+    place:"mumbai"
+});
+
+db.users.insert([
+    {name:"sumit",age:21,place:"thane"},
+    {name:"ram",age:22,place:"thane"},
+    {name:"sunny",age:23,place:"kalyan"}
+]);
+
+db.users.insertOne({
+    name:"het",
+    age:19,
+    place:"kalyan"
+});
+
+
+db.users.insertMany([
+    {name:"hetal",age:28,place:"thane"},
+    {name:"ronit",age:29,place:"navi mumbai"},
+    {name:"rupesh",age:32,place:"kalyan"}
+]);
+
+
+db.users.insertOne({
+    name:"honey",
+    age:29,
+    place:"mumbai",
+    skills:['swimming','cricket']
+});
+
+db.users.insertOne({
+    name:"sameer",
+    age:31,
+    place:"thane",
+    skills:['swimming','tennis']
+});
+
+db.users.insertOne({
+    name:"suraj",
+    age:32,
+    place:"kalyan",
+    skills:['tennis'],
+    role:{jobrole:'developer'}
+});
+
+db.users.insertOne({
+    name:"suraj kadam",
+    age:33,
+    place:"kalyan",
+    skills:['football'],
+    role:{jobrole:'designer'}
+});
+
+
+
+how to fetch records in mongodbd ?
+
+db.users.find();
+db.users.find().pretty();
+
+Q: find users having age=21
+db.users.find({age:21});
+db.users.find({age:{$eq:21}});
+
+Q: find users having age>25
+db.users.find({age:{$gt:25}});
+
+Q: find users having age>=25
+db.users.find({age:{$gte:25}});
+
+Q: find users having age<21
+db.users.find({age:{$lt:21}});
+
+
+Q: find users having age<=21
+db.users.find({age:{$lte:21}});
+
+
+Q: find users having age!=21
+db.users.find({age:{$ne:21}});
+
+Q: find users having place='kalyan'
+db.users.find({place:'kalyan'});
+
+Q: find users having place='kalyan' and age>=30
+
+//{ $and: [ { <expression1> }, { <expression2> } , ... , { <expressionN> } ] }
+db.users.find({$and:[{place:'kalyan'},{age:{$gte:30}}]});
+
+Q: find users having place='kalyan' and age>=30 and name='rupesh'
+
+db.users.find({$and:[{place:'kalyan'},{age:{$gte:30}},{name:"rupesh"}]});
+
+Q: find users having age=32 or place=thane
+
+db.users.find({$or:[{place:'thane'},{age:{$eq:32}}]});
+
+Q: find users having skills : developer
+//db.bios.find( { "name.last": "Hopper" } )
+
+db.users.find({'role.jobrole':'developer'})
+
+Q: fin users having skills = tennis
+
+//db.bios.find( { contribs: "UNIX" } )
+db.users.find({skills:'tennis'})
+
+Q: fin users having skills = tennis or football
+//db.bios.find( { contribs: { $in: [ "ALGOL", "Lisp" ]} } )
+db.users.find({skills:{$in:['tennis','football']}});
+
+
+Q: find users having skills = tennis and swmming
+db.users.find( { skills: { $all: [ "tennis", "swimming" ] } } )
+
+Q: find user having skills count=1
+db.users.find( { skills: { $size: 1} } )
+
+Q: Remove all records
+db.users.remove({});
+
+Q: Remove record having name='sammer'
+db.users.remove({name:'sameer'});
+
+Q: update user place,age having name='akshay'
+db.users.update({name:"akshay"},{$set:{place:'navi mumbai' , age:50}});
+db.users.updateMany({name:"akshay"},{$set:{place:'navi mumbai' , age:50}});
+
+db.users.update({_id:ObjectId('63946db5827b556ee1a9a100')},{$set:{name:"honey singh"}});
