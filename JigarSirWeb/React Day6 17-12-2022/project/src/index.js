@@ -1,41 +1,56 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Menu from './components/Menu';
-
+import React, { Children } from "react";
+import  ReactDOM  from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
-} from "react-router-dom";
-import Login from './components/Login';
-import User from './components/User';
-import Home from './components/Home';
+}from "react-router-dom";
 
-// Create routes using createBrowserRouter()
-// localhost:3000/c
-const router1 = createBrowserRouter([
+import Menu from './components/Menu'
+import Home from './components/Home'
+import Login from './components/Login'
+import User from './components/User'
+import EditPage from "./components/EditPage";
+import Register from "./components/Register";
+import Parent from "./components/Parent";
+
+const router1=createBrowserRouter([
   {
     path:"/",
-    element:<Menu />,
+    element:<Menu/>,
     children:[
-      {
-        path:'/login-page',
-        element:<Login />
-      },
-      {
-        path:'/user-page',
-        element:<User />
-      },
-      {
-        path:'/',
-        element:<Home />
-      },
+        {
+          path:"/",
+          element:<Home/>
+        },
+        {
+          path:"/login-page",
+          element:<Login a="10" b="20"/>
+
+        },
+        {
+          path:"/user-page",
+          element:<User/>
+        },
+        {
+          path:"/edit-page-comp/:userid",
+          element:<EditPage />
+        },
+        {
+          path:"/Register",
+          element:<Register/>
+        },
+        {
+          path:"/Parent",
+          element:<Parent/>
+        }
+
+
+
     ]
-  } 
+  }
 ])
-
-const record = ReactDOM.createRoot(document.getElementById('root'));
-
-// record.render(<Menu />);
-record.render(
-  <RouterProvider router={router1} />
-)
+ReactDOM.createRoot(document.getElementById("root")).render(
+  
+    <RouterProvider router={router1} />
+  
+);
