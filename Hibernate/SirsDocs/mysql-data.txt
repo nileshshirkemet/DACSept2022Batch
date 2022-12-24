@@ -1,0 +1,32 @@
+create table Account (
+                    id int not null primary key,
+                    name varchar(15),
+                    balance numeric(15, 4));
+
+
+com.mysql.jdbc.Driver
+
+jdbc:mysql://localhost:3306/sales
+
+
+
+
+
+alter table account add city varchar(20);
+
+ALTER TABLE account 
+ADD COLUMN city varchar(20),
+ADD COLUMN country varchar(20);
+
+
+org.hibernate.jpa.HibernatePersistenceProvider
+org.eclipse.persistence.jpa.PersistenceProvider
+
+
+
+org.hibernate.dialect.MySQL55Dialect
+
+
+
+
+

@@ -64,7 +64,7 @@ public class HibernateTest {
 
 		saveUsingHibernate(account);
 		
-		//sessionFactory.close();
+		sessionFactory.close();
 	}
 	
 }

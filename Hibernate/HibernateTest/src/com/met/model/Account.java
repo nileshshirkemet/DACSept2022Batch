@@ -1,14 +1,18 @@
 package com.met.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Transient;
 
-@Entity
+@Entity(name = "Account_Tbl")
 public class Account {
 
 	@Id
+	@Column(name = "acc_id")
 	private int id;
+	
+	@Column(length = 20)
 	private String name;
 	private double balance;
 	
@@ -39,6 +43,4 @@ public class Account {
 	public void setBalance(double balance) {
 		this.balance = balance;
 	}
-		
-	
 }

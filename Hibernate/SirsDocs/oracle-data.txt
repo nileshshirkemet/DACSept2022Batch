@@ -1,0 +1,21 @@
+create table Account (
+                    id int not null constraint idpk primary key,
+                    name varchar2(15),
+                    balance number(15, 4));
+
+
+ oracle.jdbc.OracleDriver
+ jdbc:oracle:thin:@iitdac.met.edu/xe
+ milind
+ pawar
+
+
+alter table account add city varchar2(20);
+
+ 
+ org.hibernate.jpa.HibernatePersistenceProvider
+org.eclipse.persistence.jpa.PersistenceProvider
+
+
+ org.hibernate.dialect.Oracle10gDialect
+ 
