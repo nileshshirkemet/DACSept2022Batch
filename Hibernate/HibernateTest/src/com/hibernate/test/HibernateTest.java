@@ -57,10 +57,10 @@ public class HibernateTest {
 	
 	public static void main(String[] args) {
 		Account account = new Account();
-		account.setId(9);
-		account.setName("Sam");
-		account.setBalance(850000);
-		account.setInterest(10);
+		//account.setId(10);
+		account.setName("");
+		account.setBalance(950000);
+		account.setInterest(1000);
 
 		saveUsingHibernate(account);
 		
