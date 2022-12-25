@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+   <session-factory>
+   
+      <property name = "hibernate.connection.driver_class">
+         oracle.jdbc.OracleDriver
+      </property>
+
+      <property name = "hibernate.connection.url">
+         jdbc:oracle:thin:@iitdac.met.edu/xe
+      </property>
+   
+      <property name = "hibernate.connection.username">milind</property>
+   
+      <property name = "hibernate.connection.password">pawar</property>
+      
+      <property name = "hibernate.show_sql">
+         true
+      </property>
+      
+      <!--
+      <property name = "hibernate.hbm2ddl.auto">
+         create
+      </property> -->
+      
+      <mapping class="com.met.model.Account"/>
+      
+      <!--<property name = "hibernate.dialect">
+         
+      </property>-->
+      
+   </session-factory>
+</hibernate-configuration>
