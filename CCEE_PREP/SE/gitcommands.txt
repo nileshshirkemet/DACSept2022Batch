@@ -1,0 +1,61 @@
+git --version : It will tell us the git current version installed on my pc
+
+git init : Initialize the git repository
+
+git status - it lists all  the modified files which are ready to be added to the local repository
+
+git config --global user.email "ilearniexcel@gmail.com"
+git config --global user.name "coderepositor"
+
+git config --list - It will show the entire configruation parameter set for the local repository
+
+git add <filename> : It will add the file into the staging area
+git add * : It will move all the files from working directory to staging area
+git add -A: It will move all the untracked files
+git rm -cached <filename> : It will unstage the file from staging area
+git rm --cached * : It will unstage all the files from staging area to working directory
+git rm --cached <filename> -f : It will unstage all the files from staging area to working directory forcefully
+
+
+git commit -m "Initial version": It will commit all the files from staging area to the local repository
+git commit - It will open the message file to enter the details about the version you are commiting
+git log : it will show all the commit logs made for the working directory
+
+git ls-files: it will show all the files in the local repository(commited state)
+
+git reset <commit id>
+git reset --hard <commitid>
+
+
+git show: It will show the difference between the files between the current commit and the previous commit
+git show <commit id>: It will show the difference between your latest version vs commit id provided
+git diff : It will show the difference between working directory file and latest commit
+git diff --staged: Difference between staged file and the latest commit
+
+git remote add origin https://github.com/coderepositor/metgitdemo
+
+git push origin master
+
+
+
+
+
+git branch : List down all the branches
+
+git branch <branchname> : crates the branch with the given name
+
+git checkout <branchname> will switched to the branch
+
+git checkout -b <branchname> : It will create the branch and checkout at the same time
+
+git diff master : It will compare the files between current branch and master
+
+git merge <branchname> : It will merge all the changes of the given branchname to the master branch
+
+git branch -d <branchname>: It will delete the branch
+
+git pull <git repository link>: It will download the data from the git repository
+
+git clone <url> : it will will obtain a repository from an git url
+
+

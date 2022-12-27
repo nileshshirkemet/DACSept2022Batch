@@ -1,0 +1,24 @@
+Version Control systems - IT manages the changes of documents, computer programs, large websites and other collection of information
+
+There are 2 types of VCS
+1. Centralized version control systems(CVCS)
+2. Distributed version control systems(DVCS)
+
+Features of the GIT
+1.Free and Open Source
+2.Speed
+3.Scalable
+4.Reliable
+5.Secure
+6.Economical
+7.Support non-linear development
+8.Easy Branching
+9.Distributed development
+10.Compatibility with existing systems or protocol
+
+What role git plays in DevOps?
+Code + Shared Repository
+
+Git - Local repository
+Github - Remote repository
+
