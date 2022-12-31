@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx" 
+ xmlns:p="http://www.springframework.org/schema/p" xmlns:c="http://www.springframework.org/schema/c" 
+ xmlns:context="http://www.springframework.org/schema/context" 
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd 
+ http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context-4.0.xsd" 
+ 
+ >
+ <!-- default-lazy-init="true" -->
+ 
+ 	<bean id="emp1" class="com.met.model.Employee"></bean>
+ 	
+ 	<!-- Employee emp1 = new Employee(); -->
+ 
+ 	<bean id="emp2" class="com.met.model.Employee" scope="singleton"></bean>
+ 	
+ 	<!-- Employee emp2 = new Employee(); -->
+ 
+ 	<bean id="emp3" class="com.met.model.Employee" scope="prototype"></bean>
+ 	
+ 	<bean id="emp4" class="com.met.model.Employee">
+ 		<constructor-arg name="name" value="Jack"></constructor-arg>
+ 		<constructor-arg name="age" value="24"></constructor-arg>
+ 	</bean>
+ 	<!-- Employee emp4 = new Employee("Jack", 24); -->
+ 	
+ 	
+ 	<bean id="emp5" class="com.met.model.Employee"> 		
+ 		<constructor-arg index="1" value="22"></constructor-arg>
+ 		<constructor-arg index="0" value="Jill"></constructor-arg>
+ 	</bean>
+ 	<!-- Employee emp5 = new Employee("Jill", 22); -->
+ 	
+ 	<bean id="emp6" class="com.met.model.Employee">
+		<property name="name" value="Jane"></property>
+		<property name="age" value="28"></property>
+		<property name="designation" value="SSE"></property>
+		<property name="salary" value="80000"></property> 		
+ 	</bean>
+ 	
+ 	
+ 	<bean id="emp7" class="com.met.model.Employee"> 		
+ 		<constructor-arg index="1" value="28"></constructor-arg>
+ 		<constructor-arg index="0" value="Ramesh"></constructor-arg>
+ 		<property name="designation" value="SSE"></property>
+		<property name="salary" value="85000"></property> 	
+ 	</bean>
+ 	
+ 	<bean id="emp8" class="com.met.model.Employee" lazy-init="true"> 		
+ 		<constructor-arg index="1" value="25"></constructor-arg>
+ 		<constructor-arg index="0" value="Tom"></constructor-arg>
+ 	</bean>
+ 	
+ 	<bean id="address1" class="com.met.model.Address">
+ 		<property name="city" value="Pune"></property>
+ 		<property name="country" value="India"></property>
+ 	</bean>
+ 	
+ 	<bean id="emp9" class="com.met.model.Employee">
+ 		<constructor-arg name="name" value="Tim"></constructor-arg>
+ 		<constructor-arg name="age" value="30"></constructor-arg>
+ 		<constructor-arg name="designation" value="VP"></constructor-arg>
+ 		<constructor-arg name="salary" value="120000"></constructor-arg>
+ 		<constructor-arg name="address" ref="address2"></constructor-arg>
+ 	</bean>
+ 	
+ 	<bean id="address2" class="com.met.model.Address">
+ 		<property name="city" value="N.Y"></property>
+ 		<property name="country" value="USA"></property>
+ 	</bean>
+ 	
+ 	
+ 	<bean id="stage1" class="com.met.model.Stage" factory-method="getStage"></bean>
+ 	
+ 	<!-- Stage stage1 = new Stage(); -->
+ 	
+ 	<bean id="stage2" class="com.met.model.Stage" factory-method="getStage"></bean>
+ 	<!-- Stage stage2 = new Stage(); -->
+ 
+ </beans>
+ 
+ 
+ 
+ 
