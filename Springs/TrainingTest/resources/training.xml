@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx" 
+ xmlns:p="http://www.springframework.org/schema/p" xmlns:c="http://www.springframework.org/schema/c" 
+ xmlns:context="http://www.springframework.org/schema/context" 
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd 
+ http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context-4.0.xsd" >
+ 
+ 	<bean id="javaTrainer" class="com.met.model.JavaTrainer">
+ 		<constructor-arg name="name" value="Ramesh"></constructor-arg>
+ 		<constructor-arg name="subjects">
+ 			<list>
+ 				<value>RMI</value>
+ 				<value>Servlets</value>
+ 				<value>JSP</value>
+ 				<value>Web Services</value>
+ 			</list>
+ 		</constructor-arg>
+ 	</bean>
+ 	
+ 	<bean id="javaTrainer1" class="com.met.model.JavaTrainer" primary="true">
+ 		<constructor-arg name="name" value="Ajay"></constructor-arg>
+ 		<constructor-arg name="subjects">
+ 			<list>
+ 				<value>OOPS</value>
+ 				<value>JDBC</value>
+ 				<value>Collections</value>
+ 				<value>Lambda</value>
+ 			</list>
+ 		</constructor-arg>
+ 	</bean>
+ 
+ 	<!-- <bean id="metSolutions" class="com.met.model.METSolutions">
+ 		<property name="trainer" ref="javaTrainer"></property>
+ 	</bean> -->
+ 	
+ 	<bean id="metSolutions" class="com.met.model.METSolutions" autowire="byType">
+ 	
+ 	</bean>
+ 	
+ 	
+ 	
+ 	<!--
+ 	For byName autowiring to work we need to create <bean id="trainer"
+ 	 
+ 	<bean id="metSolutions" class="com.met.model.METSolutions" autowire="byName">
+ 	
+ 	</bean>
+ 	<bean id="trainer" class="com.met.model.JavaTrainer">
+ 		<constructor-arg name="name" value="Ajay"></constructor-arg>
+ 		<constructor-arg name="subjects">
+ 			<list>
+ 				<value>OOPS</value>
+ 				<value>JDBC</value>
+ 				<value>Collections</value>
+ 				<value>Lambda</value>
+ 			</list>
+ 		</constructor-arg>
+ 	</bean> -->
+ 
+ 	<!-- <bean id="trainingWorkshop" class="com.met.model.TrainingWorkshop">
+ 		<constructor-arg name="trainingCompany" ref="metSolutions"></constructor-arg>
+ 	</bean> -->
+ 	
+ 	<bean id="trainingWorkshop" class="com.met.model.TrainingWorkshop" autowire="constructor">
+ 	
+ 	</bean>
+ 
+ </beans>
+ 
+ 
+ 
+ 
