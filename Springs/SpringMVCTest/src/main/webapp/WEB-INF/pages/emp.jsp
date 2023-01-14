@@ -39,7 +39,41 @@
 		</table>
 		
 	</sf:form>
+	
+	<br/>
+	
+	
+	<c:if test="${not empty listEmp}">
+		
+		<table border="1">
+			
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Name</th>
+					<th>Designation</th>
+					<th>EmailId</th>
+				</tr>
+			</thead>
+			<c:forEach var="emp" items="${listEmp }">
+				
+				<tr>
+					<td>${emp.id }</td>
+					<td>${emp.name }</td>
+					<td>${emp.designation }</td>
+					<td>${emp.emailId }</td>
+				</tr>
+				
+			</c:forEach>
+			
+			
+		</table>
+		
+	</c:if>
+	
 		
 
 </body>
 </html>
+
+
