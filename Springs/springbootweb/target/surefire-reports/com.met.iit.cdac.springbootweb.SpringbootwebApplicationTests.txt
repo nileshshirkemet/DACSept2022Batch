@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.met.iit.cdac.springbootweb.SpringbootwebApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.708 s - in com.met.iit.cdac.springbootweb.SpringbootwebApplicationTests
